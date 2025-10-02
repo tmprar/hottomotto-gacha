@@ -1,0 +1,65 @@
+@import 'tailwindcss';
+@import 'tailwindcss-primeui';
+@config '../../../tailwind.config.js';
+
+:root {
+  --p-primary-50: #ebebff;
+  --p-primary-100: #d7d6ff;
+  --p-primary-200: #afadff;
+  --p-primary-300: #8785ff;
+  --p-primary-400: #615fff;
+  --p-primary-500: #2724ff;
+  --p-primary-600: #0400eb;
+  --p-primary-700: #0300ad;
+  --p-primary-800: #020075;
+  --p-primary-900: #010038;
+  --p-primary-950: #01001f;
+  --p-surface-0: #ffffff;
+  --p-surface-50: #fafafa;
+  --p-surface-100: #f4f4f5;
+  --p-surface-200: #e4e4e7;
+  --p-surface-300: #d4d4d8;
+  --p-surface-400: #a1a1aa;
+  --p-surface-500: #71717a;
+  --p-surface-600: #52525b;
+  --p-surface-700: #3f3f46;
+  --p-surface-800: #27272a;
+  --p-surface-900: #18181b;
+  --p-surface-950: #09090b;
+  --p-content-border-radius: 6px;
+}
+
+@custom-variant dark (&:where(.app-dark, .app-dark *));
+
+html {
+  font-size: 16px;
+}
+
+body {
+  @apply bg-surface-0 dark:bg-surface-800;
+}
+
+.sidemenu-overlay {
+  @apply 2xl:hidden;
+}
+.sidemenu-overlay.active {
+  @apply transition duration-100 p-5 bg-black/40 backdrop-blur-sm cursor-pointer fixed inset-0 z-[50];
+}
+
+.sidemenu {
+  @apply flex fixed top-0 start-0 bottom-0 z-[60] w-80 overflow-y-auto -translate-x-full transition-all duration-300 transform 2xl:flex 2xl:translate-x-0 2xl:end-auto 2xl:bottom-0;
+}
+
+.sidemenu.active {
+  @apply flex translate-x-0 end-auto bottom-0;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.2s;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  filter: blur(1rem);
+}

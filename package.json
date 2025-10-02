@@ -1,0 +1,52 @@
+{
+  "name": "hottomotto-gacha",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "typecheck": "nuxt typecheck",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "pnpm run build && wrangler dev",
+    "postinstall": "nuxt prepare",
+    "deploy": "pnpm run build && wrangler deploy",
+    "cf-typegen": "wrangler types"
+  },
+  "dependencies": {
+    "@iconify-json/material-symbols": "^1.2.37",
+    "@nuxt/eslint": "^1.9.0",
+    "@primeuix/themes": "^1.2.3",
+    "nuxt": "^4.1.2",
+    "primevue": "^4.3.9",
+    "vue": "^3.5.21",
+    "vue-router": "^4.5.1",
+    "zod": "^4.1.11"
+  },
+  "devDependencies": {
+    "@egoist/tailwindcss-icons": "^1.9.0",
+    "@eslint/js": "^9.36.0",
+    "@stylistic/eslint-plugin": "^5.4.0",
+    "@tailwindcss/vite": "^4.1.13",
+    "@types/node": "^24.5.2",
+    "eslint": "^9.36.0",
+    "eslint-plugin-import-newlines": "^1.4.0",
+    "eslint-plugin-no-relative-import-paths": "^1.6.1",
+    "eslint-plugin-perfectionist": "^4.15.0",
+    "eslint-plugin-unicorn": "^61.0.2",
+    "eslint-plugin-vue": "^10.4.0",
+    "nitro-cloudflare-dev": "^0.2.2",
+    "nitropack": "^2.12.6",
+    "tailwind-merge": "^3.3.1",
+    "tailwind-scrollbar": "^4.0.2",
+    "tailwindcss": "^4.1.13",
+    "tailwindcss-primeui": "^0.6.1",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.44.0",
+    "vite-plugin-eslint2": "^5.0.4",
+    "vue-eslint-parser": "^10.2.0",
+    "vue-tsc": "^3.0.7",
+    "wrangler": "^4.37.1"
+  }
+}
