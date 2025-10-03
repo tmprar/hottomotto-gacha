@@ -22,6 +22,10 @@ import {
 } from '~/utils/gacha'
 import { menuItems } from '~/utils/menu-item'
 
+useHead({
+  title: 'ほっともっと 800円ガチャ',
+})
+
 enum Mode {
   BASIC = 'basic',
   PREMIUM = 'premium',
