@@ -232,7 +232,7 @@ const shareToX = () => {
                   <!-- TODO: 検索条件の入力欄を用意する -->
                   <div class="flex flex-col gap-2">
                     <div class="mb-1">
-                      予算 {{ state.minBudget }} ～ {{ state.maxBudget }}円
+                      予算 {{ toNumberFormat(state.minBudget) }} ～ {{ toNumberFormat(state.maxBudget) }}
                     </div>
                     <Slider
                       v-model="budget"
@@ -280,7 +280,7 @@ const shareToX = () => {
                         :key="customizeItem.itemId"
                         class="text-xs"
                         severity="success"
-                        :value="`${customizeItem.name} ${customizeItem.price}円`"
+                        :value="`${customizeItem.name} ${toNumberFormat(customizeItem.price)}`"
                       />
                       <Tag
                         v-if="item.isAlcohol"
@@ -300,7 +300,7 @@ const shareToX = () => {
                   <div class="flex-grow" />
                   <div class="flex items-center">
                     <div class="text-lg">
-                      {{ toNumberFormat(item.price) }}円
+                      {{ toNumberFormat(item.price) }}
                     </div>
                   </div>
                 </div>
@@ -313,7 +313,7 @@ const shareToX = () => {
                 <Divider />
 
                 <div class="text-lg text-right p-2">
-                  {{ toNumberFormat(state.result.totalAmount) }}円
+                  {{ toNumberFormat(state.result.totalAmount) }}
                 </div>
 
                 <div class="flex justify-end">
