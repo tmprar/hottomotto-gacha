@@ -252,6 +252,9 @@ export default defineNuxtPlugin((nuxtApp) => {
           filterButtonbar: 'flex items-center justify-between gap-2',
         },
       },
+      divider: {
+        root: 'm-0',
+      },
       inputgroup: {
         root: 'w-auto inline-flex',
       },

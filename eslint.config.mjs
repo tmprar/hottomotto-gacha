@@ -394,10 +394,7 @@ export default withNuxt().prepend(
       parserOptions: {
         project: true,
         projectService: {
-          allowDefaultProject: [
-            'scripts/migrate.ts',
-            'drizzle.config.ts',
-          ],
+          allowDefaultProject: [],
         },
         tsconfigRootDir: import.meta.dirname,
       },

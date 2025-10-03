@@ -10,7 +10,7 @@ export default {
   plugins: [
     iconsPlugin({
       collections: getIconCollections(['material-symbols']),
-      scale: 1.2,
+      scale: 1.5,
     }),
     scrollbarPlugin,
     plugin(({ addUtilities }) => {
