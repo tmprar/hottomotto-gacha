@@ -141,6 +141,20 @@ const toNumberFormat = (value: number) => new Intl.NumberFormat('ja-JP', {
   currency: 'JPY',
   style: 'currency',
 }).format(value)
+
+const shareToX = () => {
+  if (!state.value.result || state.value.result.items.length === 0) {
+    return
+  }
+
+  const items = state.value.result.items.map(item => `・${item.name} ${toNumberFormat(item.price)}`).join('\n')
+  const total = toNumberFormat(state.value.result.totalAmount)
+  const text = `ほっともっと 800円ガチャ\n\n${items}\n\n合計: ${total}`
+  const url = globalThis.location.href
+  const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`
+
+  window.open(twitterUrl, '_blank')
+}
 </script>
 
 <template>
@@ -202,11 +216,11 @@ const toNumberFormat = (value: number) => new Intl.NumberFormat('ja-JP', {
                 <template #toggleicon="slotProps">
                   <i
                     v-if="slotProps.collapsed"
-                    class="i-material-symbols-keyboard-arrow-down-rounded"
+                    class="i-mdi-chevron-down"
                   />
                   <i
                     v-else
-                    class="i-material-symbols-keyboard-arrow-up-rounded"
+                    class="i-mdi-chevron-up"
                   />
                 </template>
 
@@ -296,6 +310,15 @@ const toNumberFormat = (value: number) => new Intl.NumberFormat('ja-JP', {
 
                 <div class="text-lg text-right p-2">
                   {{ toNumberFormat(state.result.totalAmount) }}円
+                </div>
+
+                <div class="flex justify-end">
+                  <Button
+                    icon="i-mdi-twitter"
+                    label="結果をシェア"
+                    severity="contrast"
+                    @click="shareToX()"
+                  />
                 </div>
               </div>
             </div>

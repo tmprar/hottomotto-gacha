@@ -9,7 +9,7 @@ import plugin from 'tailwindcss/plugin'
 export default {
   plugins: [
     iconsPlugin({
-      collections: getIconCollections(['material-symbols']),
+      collections: getIconCollections(['mdi']),
       scale: 1.5,
     }),
     scrollbarPlugin,

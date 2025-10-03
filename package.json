@@ -15,7 +15,6 @@
     "cf-typegen": "wrangler types"
   },
   "dependencies": {
-    "@iconify-json/material-symbols": "^1.2.37",
     "@nuxt/eslint": "^1.9.0",
     "@primeuix/themes": "^1.2.3",
     "canvas-confetti": "^1.9.3",
@@ -28,6 +27,7 @@
   "devDependencies": {
     "@egoist/tailwindcss-icons": "^1.9.0",
     "@eslint/js": "^9.36.0",
+    "@iconify-json/mdi": "^1.2.3",
     "@stylistic/eslint-plugin": "^5.4.0",
     "@tailwindcss/vite": "^4.1.13",
     "@types/canvas-confetti": "^1.9.0",
