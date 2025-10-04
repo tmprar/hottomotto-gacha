@@ -227,7 +227,19 @@ function solveWithoutDuplicates(
   maxBudget: number,
   requireStapleFood: boolean,
 ): IGachaResult {
-  const n = menuItems.length
+  // Group items by itemId to prevent duplicates
+  const itemGroups = new Map<string, TMenuItem[]>()
+
+  for (const item of menuItems) {
+    if (!itemGroups.has(item.itemId)) {
+      itemGroups.set(item.itemId, [])
+    }
+    itemGroups.get(item.itemId)!.push(item)
+  }
+
+  // Convert groups to array for DP processing
+  const uniqueGroups = [...itemGroups.values()]
+  const n = uniqueGroups.length
 
   const dp: number[][] = Array.from({ length: n + 1 }, () =>
     Array.from({ length: maxBudget + 1 }, () => 0),
@@ -235,7 +247,7 @@ function solveWithoutDuplicates(
 
   // DP構築
   for (let i = 1; i <= n; i++) {
-    const item = menuItems[i - 1]
+    const itemGroup = uniqueGroups[i - 1]
 
     for (let w = 0; w <= maxBudget; w++) {
       const prevValue = dp[i - 1]?.[w]
@@ -244,14 +256,19 @@ function solveWithoutDuplicates(
         dp[i]![w] = prevValue
       }
 
-      if (item && w >= item.price) {
-        const dpValue = dp[i - 1]?.[w - item.price]
+      // Try each item in the group (but only one can be selected)
+      if (itemGroup) {
+        for (const item of itemGroup) {
+          if (w >= item.price) {
+            const dpValue = dp[i - 1]?.[w - item.price]
 
-        if (dpValue !== undefined) {
-          dp[i]![w] = Math.max(
-            dp[i]![w]!,
-            dpValue + item.price,
-          )
+            if (dpValue !== undefined) {
+              dp[i]![w] = Math.max(
+                dp[i]![w]!,
+                dpValue + item.price,
+              )
+            }
+          }
         }
       }
     }
@@ -294,22 +311,34 @@ function solveWithoutDuplicates(
       return []
     }
 
-    const item = menuItems[i - 1]
-    const validChoices: { use: boolean }[] = []
+    const itemGroup = uniqueGroups[i - 1]
+    const validChoices: {
+      item?: TMenuItem
+      use: boolean
+    }[] = []
 
     const dpPrevBudget = dp[i - 1]?.[remainingBudget]
 
     if (dpPrevBudget !== undefined && dpPrevBudget >= targetValue) {
-      validChoices.push({ use: false })
+      validChoices.push({
+        use: false,
+      })
     }
 
-    if (item && remainingBudget >= item.price) {
-      const newBudget = remainingBudget - item.price
-      const newTarget = targetValue - item.price
-      const dpNewBudget = dp[i - 1]?.[newBudget]
+    if (itemGroup) {
+      for (const item of itemGroup) {
+        if (remainingBudget >= item.price) {
+          const newBudget = remainingBudget - item.price
+          const newTarget = targetValue - item.price
+          const dpNewBudget = dp[i - 1]?.[newBudget]
 
-      if (newTarget >= 0 && dpNewBudget !== undefined && dpNewBudget >= newTarget) {
-        validChoices.push({ use: true })
+          if (newTarget >= 0 && dpNewBudget !== undefined && dpNewBudget >= newTarget) {
+            validChoices.push({
+              item,
+              use: true,
+            })
+          }
+        }
       }
     }
 
@@ -319,14 +348,14 @@ function solveWithoutDuplicates(
 
     const choice = validChoices[Math.floor(Math.random() * validChoices.length)]!
 
-    if (choice.use && item) {
+    if (choice.use && choice.item) {
       const rest = randomBacktrack(
         i - 1,
-        remainingBudget - item.price,
-        targetValue - item.price,
+        remainingBudget - choice.item.price,
+        targetValue - choice.item.price,
       )
 
-      return [...rest, item]
+      return [...rest, choice.item]
     }
 
     return randomBacktrack(i - 1, remainingBudget, targetValue)
@@ -463,13 +492,26 @@ function solveWithoutDuplicates(
         }
 
         const otherSelectedItems = backtrackOther(m, remainingBudget, remainingBudget)
+        const allItems = [stapleFoodItem, ...otherSelectedItems]
+
+        // Deduplication check for staple food fallback
+        const seenItemIds = new Set<string>()
+        const deduplicatedItems = allItems.filter((item) => {
+          if (seenItemIds.has(item.itemId)) {
+            return false
+          }
+
+          seenItemIds.add(item.itemId)
+
+          return true
+        })
 
         return {
           allowDuplicates: false,
-          items: [stapleFoodItem, ...otherSelectedItems],
+          items: deduplicatedItems,
           maxBudget,
           minBudget,
-          totalAmount: stapleFoodItem.price + otherSelectedItems.reduce((sum, item) => sum + item.price, 0),
+          totalAmount: deduplicatedItems.reduce((sum, item) => sum + item.price, 0),
         }
       }
     }
@@ -484,11 +526,23 @@ function solveWithoutDuplicates(
     }
   }
 
+  // Final deduplication check to ensure no itemId duplicates
+  const seenItemIds = new Set<string>()
+  const deduplicatedItems = selectedItems.filter((item) => {
+    if (seenItemIds.has(item.itemId)) {
+      return false
+    }
+
+    seenItemIds.add(item.itemId)
+
+    return true
+  })
+
   return {
     allowDuplicates: false,
-    items: selectedItems,
+    items: deduplicatedItems,
     maxBudget,
     minBudget,
-    totalAmount: targetObj.value,
+    totalAmount: deduplicatedItems.reduce((sum, item) => sum + item.price, 0),
   }
 }
