@@ -247,8 +247,9 @@ const shareToX = () => {
                 </div>
               </Panel>
 
-              <div class="text-xs">
-                ※店舗によって取扱商品や価格が異なる場合があります。ご注意ください。
+              <div class="text-xs flex flex-col gap-1">
+                <div>※有志により開発された非公式サイトです。</div>
+                <div>※店舗によって取扱商品や価格が異なる場合があります。ご注意ください。</div>
               </div>
             </div>
 
