@@ -23,7 +23,7 @@ import {
 import { menuItems } from '~/utils/menu-item'
 
 useHead({
-  title: 'ほっともっと 800円ガチャ',
+  title: 'ほっともっと ￥800ガチャ',
 })
 
 enum Mode {
@@ -63,7 +63,7 @@ const state = ref<{
   requireStapleFood: boolean
   result?: IGachaResult
 }>({
-  allowDuplicates: true,
+  allowDuplicates: false,
   maxBudget: 800,
   minBudget: 800,
   requireStapleFood: true,
@@ -153,7 +153,10 @@ const shareToX = () => {
 
   const items = state.value.result.items.map(item => `・${item.name} ${toNumberFormat(item.price)}`).join('\n')
   const total = toNumberFormat(state.value.result.totalAmount)
-  const text = `ほっともっと 800円ガチャ\n\n${items}\n\n合計: ${total}`
+  const budget = state.value.minBudget === state.value.maxBudget
+    ? toNumberFormat(state.value.minBudget)
+    : `${toNumberFormat(state.value.minBudget)}〜${toNumberFormat(state.value.maxBudget)}`
+  const text = `ほっともっと ${budget}ガチャ\n\n${items}\n\n合計: ${total}`
   const url = globalThis.location.href
   const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`
 
@@ -169,7 +172,7 @@ const shareToX = () => {
           <div class="flex flex-col gap-4">
             <div class="flex justify-center gap-2">
               <div class="text-2xl font-bold">
-                ほっともっと 800円ガチャ
+                ほっともっと ￥800ガチャ
               </div>
             </div>
 
@@ -229,7 +232,6 @@ const shareToX = () => {
                 </template>
 
                 <div>
-                  <!-- TODO: 検索条件の入力欄を用意する -->
                   <div class="flex flex-col gap-2">
                     <div class="mb-1">
                       予算 {{ toNumberFormat(state.minBudget) }} ～ {{ toNumberFormat(state.maxBudget) }}
