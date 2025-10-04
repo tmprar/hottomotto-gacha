@@ -33,7 +33,7 @@ export const ALLERGEN_METADATA = {
 
 export interface IGachaOptions {
   allowDuplicates?: boolean
-  requireBento?: boolean
+  requireStapleFood?: boolean
 }
 
 export interface IGachaResult {
@@ -57,21 +57,21 @@ export function pullGacha(
 ): IGachaResult {
   const {
     allowDuplicates = true,
-    requireBento = false,
+    requireStapleFood = false,
   } = options
 
   if (allowDuplicates) {
-    return solveWithDuplicates(menuItems, minBudget, maxBudget, requireBento)
+    return solveWithDuplicates(menuItems, minBudget, maxBudget, requireStapleFood)
   }
 
-  return solveWithoutDuplicates(menuItems, minBudget, maxBudget, requireBento)
+  return solveWithoutDuplicates(menuItems, minBudget, maxBudget, requireStapleFood)
 }
 
 function solveWithDuplicates(
   menuItems: TMenuItem[],
   minBudget: number,
   maxBudget: number,
-  requireBento: boolean,
+  requireStapleFood: boolean,
 ): IGachaResult {
   const dp: number[] = Array.from({ length: maxBudget + 1 }, () => 0)
 
@@ -156,11 +156,11 @@ function solveWithDuplicates(
 
   const selectedItems = randomBacktrack(targetObj.budget, targetObj.value)
 
-  // requireBentoオプションが有効な場合、弁当が含まれるまで再試行
-  if (requireBento && !selectedItems.some(item => item.isBento)) {
-    const bentoItems = menuItems.filter(item => item.isBento)
+  // requireStapleFoodオプションが有効な場合、主食が含まれるまで再試行
+  if (requireStapleFood && !selectedItems.some(item => item.hasStapleFood)) {
+    const stapleFoodItems = menuItems.filter(item => item.hasStapleFood)
 
-    if (bentoItems.length === 0) {
+    if (stapleFoodItems.length === 0) {
       return {
         allowDuplicates: true,
         items: [],
@@ -170,11 +170,11 @@ function solveWithDuplicates(
       }
     }
 
-    // 弁当を1つ以上含む解を探す
+    // 主食を1つ以上含む解を探す
     for (let attempt = 0; attempt < 100; attempt++) {
       const newItems = randomBacktrack(targetObj.budget, targetObj.value)
 
-      if (newItems.some(item => item.isBento)) {
+      if (newItems.some(item => item.hasStapleFood)) {
         return {
           allowDuplicates: true,
           items: newItems,
@@ -185,30 +185,30 @@ function solveWithDuplicates(
       }
     }
 
-    // 100回試行しても見つからない場合、弁当を強制的に含める
-    const cheapestBento = bentoItems.reduce((min, item) =>
+    // 100回試行しても見つからない場合、主食を強制的に含める
+    const cheapestStapleFood = stapleFoodItems.reduce((min, item) =>
       item.price < min.price ? item : min,
     )
-    const remainingBudget = targetObj.value - cheapestBento.price
+    const remainingBudget = targetObj.value - cheapestStapleFood.price
 
     if (remainingBudget >= 0) {
-      const otherItems = randomBacktrack(targetObj.budget - cheapestBento.price, remainingBudget)
+      const otherItems = randomBacktrack(targetObj.budget - cheapestStapleFood.price, remainingBudget)
 
       return {
         allowDuplicates: true,
-        items: [cheapestBento, ...otherItems],
+        items: [cheapestStapleFood, ...otherItems],
         maxBudget,
         minBudget,
-        totalAmount: cheapestBento.price + otherItems.reduce((sum, item) => sum + item.price, 0),
+        totalAmount: cheapestStapleFood.price + otherItems.reduce((sum, item) => sum + item.price, 0),
       }
     }
 
     return {
       allowDuplicates: true,
-      items: [cheapestBento],
+      items: [cheapestStapleFood],
       maxBudget,
       minBudget,
-      totalAmount: cheapestBento.price,
+      totalAmount: cheapestStapleFood.price,
     }
   }
 
@@ -225,7 +225,7 @@ function solveWithoutDuplicates(
   menuItems: TMenuItem[],
   minBudget: number,
   maxBudget: number,
-  requireBento: boolean,
+  requireStapleFood: boolean,
 ): IGachaResult {
   const n = menuItems.length
 
@@ -334,11 +334,11 @@ function solveWithoutDuplicates(
 
   const selectedItems = randomBacktrack(n, targetObj.budget, targetObj.value)
 
-  // requireBentoオプションが有効な場合、弁当が含まれるまで再試行
-  if (requireBento && !selectedItems.some(item => item.isBento)) {
-    const bentoItems = menuItems.filter(item => item.isBento)
+  // requireStapleFoodオプションが有効な場合、主食が含まれるまで再試行
+  if (requireStapleFood && !selectedItems.some(item => item.hasStapleFood)) {
+    const stapleFoodItems = menuItems.filter(item => item.hasStapleFood)
 
-    if (bentoItems.length === 0) {
+    if (stapleFoodItems.length === 0) {
       return {
         allowDuplicates: false,
         items: [],
@@ -348,11 +348,11 @@ function solveWithoutDuplicates(
       }
     }
 
-    // 弁当を1つ以上含む解を探す
+    // 主食を1つ以上含む解を探す
     for (let attempt = 0; attempt < 100; attempt++) {
       const newItems = randomBacktrack(n, targetObj.budget, targetObj.value)
 
-      if (newItems.some(item => item.isBento)) {
+      if (newItems.some(item => item.hasStapleFood)) {
         return {
           allowDuplicates: false,
           items: newItems,
@@ -363,25 +363,25 @@ function solveWithoutDuplicates(
       }
     }
 
-    // 100回試行しても見つからない場合、弁当を含む新しい解を探す
-    // この場合、弁当を必ず含むようにDPを再構築する必要がある
-    const bentoIndices = new Set(
+    // 100回試行しても見つからない場合、主食を含む新しい解を探す
+    // この場合、主食を必ず含むようにDPを再構築する必要がある
+    const stapleFoodIndices = new Set(
       menuItems
-        .map((item, idx) => (item.isBento ? idx : -1))
+        .map((item, idx) => (item.hasStapleFood ? idx : -1))
         .filter(idx => idx !== -1),
     )
 
-    // 各弁当を基準に解を探す
-    for (const bentoIdx of bentoIndices) {
-      const bentoItem = menuItems[bentoIdx]
+    // 各主食を基準に解を探す
+    for (const stapleFoodIdx of stapleFoodIndices) {
+      const stapleFoodItem = menuItems[stapleFoodIdx]
 
-      if (!bentoItem || bentoItem.price > maxBudget) {
+      if (!stapleFoodItem || stapleFoodItem.price > maxBudget) {
         continue
       }
 
-      // 弁当を含む残りのアイテムで解を探す
-      const otherItems = menuItems.filter((_, idx) => idx !== bentoIdx)
-      const remainingBudget = targetObj.value - bentoItem.price
+      // 主食を含む残りのアイテムで解を探す
+      const otherItems = menuItems.filter((_, idx) => idx !== stapleFoodIdx)
+      const remainingBudget = targetObj.value - stapleFoodItem.price
 
       if (remainingBudget < 0) {
         continue
@@ -390,10 +390,10 @@ function solveWithoutDuplicates(
       if (remainingBudget === 0) {
         return {
           allowDuplicates: false,
-          items: [bentoItem],
+          items: [stapleFoodItem],
           maxBudget,
           minBudget,
-          totalAmount: bentoItem.price,
+          totalAmount: stapleFoodItem.price,
         }
       }
 
@@ -430,7 +430,7 @@ function solveWithoutDuplicates(
       const achievable = dpOther[m]?.[remainingBudget]
 
       if (achievable === remainingBudget) {
-        // バックトラック関数（弁当以外のアイテム用）
+        // バックトラック関数（主食以外のアイテム用）
         function backtrackOther(i: number, budget: number, target: number): TMenuItem[] {
           if (target === 0) {
             return []
@@ -466,10 +466,10 @@ function solveWithoutDuplicates(
 
         return {
           allowDuplicates: false,
-          items: [bentoItem, ...otherSelectedItems],
+          items: [stapleFoodItem, ...otherSelectedItems],
           maxBudget,
           minBudget,
-          totalAmount: bentoItem.price + otherSelectedItems.reduce((sum, item) => sum + item.price, 0),
+          totalAmount: stapleFoodItem.price + otherSelectedItems.reduce((sum, item) => sum + item.price, 0),
         }
       }
     }

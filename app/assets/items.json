@@ -11,7 +11,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": true
     },
     {
       "itemId": "1965593526572264832",
@@ -24,14 +24,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1701442935384269120",
           "name": "おかずのみ",
           "price": -100
         }
-      ]
+      ],
+      "hasStapleFood": false
     },
     {
       "itemId": "1965593526572264832",
@@ -44,14 +44,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1965593526572264832",
@@ -64,14 +64,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269235709294592",
           "name": "ライス：小盛",
           "price": -30
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1965593526572264832",
@@ -84,14 +84,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1945300701129980992",
           "name": "きのこごはん",
           "price": 150
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1965594343495476224",
@@ -104,7 +104,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": true
     },
     {
       "itemId": "1965594343495476224",
@@ -117,14 +117,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1701442935384269120",
           "name": "おかずのみ",
           "price": -100
         }
-      ]
+      ],
+      "hasStapleFood": false
     },
     {
       "itemId": "1965594343495476224",
@@ -137,14 +137,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1965594343495476224",
@@ -157,14 +157,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269235709294592",
           "name": "ライス：小盛",
           "price": -30
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1965594343495476224",
@@ -177,14 +177,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1945300701129980992",
           "name": "きのこごはん",
           "price": 150
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1965590823498525696",
@@ -197,7 +197,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": true
     },
     {
       "itemId": "1965590823498525696",
@@ -210,14 +210,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1965590823498525696",
@@ -230,14 +230,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1945300997977610816",
           "name": "きのこごはん",
           "price": 150
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1965594940418494656",
@@ -250,7 +250,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1965597920754443456",
@@ -263,7 +263,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": true
     },
     {
       "itemId": "1965597920754443456",
@@ -276,14 +276,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1701442935384269120",
           "name": "おかずのみ",
           "price": -100
         }
-      ]
+      ],
+      "hasStapleFood": false
     },
     {
       "itemId": "1965597920754443456",
@@ -296,14 +296,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1965597920754443456",
@@ -316,14 +316,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269235709294592",
           "name": "ライス：小盛",
           "price": -30
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1965641523650966528",
@@ -332,7 +332,7 @@
       "description": "七味小袋\n※期間限定価格　2025/10/1(水)～2026/2/28(土）\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1965642084580406272",
@@ -341,7 +341,7 @@
       "description": "うま辛豚汁のたれ小袋\n※期間限定価格　2025/10/1(水)～2026/2/28(土）　\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1922832705063565504",
@@ -354,7 +354,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": false
     },
     {
       "itemId": "1922832705063565504",
@@ -367,14 +367,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1922833083835613568",
@@ -387,7 +387,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": false
     },
     {
       "itemId": "1922833083835613568",
@@ -400,14 +400,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1955805279759176768",
@@ -420,7 +420,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": true
     },
     {
       "itemId": "1955805945837243840",
@@ -433,7 +433,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": true
     },
     {
       "itemId": "1955806964787254336",
@@ -442,7 +442,7 @@
       "description": "七味唐辛子小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": false
     },
     {
       "itemId": "1955806964787254336",
@@ -451,14 +451,14 @@
       "description": "七味唐辛子小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1955807755301932480",
@@ -467,7 +467,7 @@
       "description": "七味唐辛子小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": false
     },
     {
       "itemId": "1955807755301932480",
@@ -476,14 +476,14 @@
       "description": "七味唐辛子小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1955808499923489856",
@@ -492,7 +492,7 @@
       "description": "七味唐辛子小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": false
     },
     {
       "itemId": "1955808499923489856",
@@ -501,14 +501,14 @@
       "description": "七味唐辛子小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1955809286218422336",
@@ -517,7 +517,7 @@
       "description": "七味唐辛子小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": false
     },
     {
       "itemId": "1955809286218422336",
@@ -526,14 +526,14 @@
       "description": "七味唐辛子小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1945294041074990336",
@@ -546,7 +546,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": false
     },
     {
       "itemId": "1945294041074990336",
@@ -559,14 +559,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1945294569412324864",
@@ -579,7 +579,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": false
     },
     {
       "itemId": "1945294569412324864",
@@ -592,14 +592,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1945295189395094592",
@@ -612,7 +612,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": true
     },
     {
       "itemId": "1945295189395094592",
@@ -625,14 +625,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1701442935384269120",
           "name": "おかずのみ",
           "price": -100
         }
-      ]
+      ],
+      "hasStapleFood": false
     },
     {
       "itemId": "1945295189395094592",
@@ -645,14 +645,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1945295189395094592",
@@ -665,14 +665,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269235709294592",
           "name": "ライス：小盛",
           "price": -30
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1945295189395094592",
@@ -685,14 +685,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1945300701129980992",
           "name": "きのこごはん",
           "price": 150
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1945295777646869760",
@@ -705,7 +705,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": false
     },
     {
       "itemId": "1945295777646869760",
@@ -718,14 +718,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1945296267231198400",
@@ -738,7 +738,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": true
     },
     {
       "itemId": "1945289189896846592",
@@ -747,7 +747,7 @@
       "description": "カレースパイス小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1945289189896846592",
@@ -756,14 +756,14 @@
       "description": "カレースパイス小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": false,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1945289876156284160",
@@ -776,7 +776,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1945289876156284160",
@@ -789,14 +789,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": false,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1945290429934435584",
@@ -805,7 +805,7 @@
       "description": "カレースパイス小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1945290429934435584",
@@ -814,14 +814,14 @@
       "description": "カレースパイス小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": false,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1945290947981311232",
@@ -830,7 +830,7 @@
       "description": "カレースパイス小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1945290947981311232",
@@ -839,14 +839,14 @@
       "description": "カレースパイス小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": false,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1945291621076659392",
@@ -855,7 +855,7 @@
       "description": "カレースパイス小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1889584058425371840",
@@ -868,7 +868,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": true
     },
     {
       "itemId": "1889584058425371840",
@@ -881,14 +881,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1889584821184864448",
@@ -901,7 +901,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": true
     },
     {
       "itemId": "1889584821184864448",
@@ -914,14 +914,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1889586806839730368",
@@ -934,7 +934,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": true
     },
     {
       "itemId": "1889586806839730368",
@@ -947,14 +947,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1701442935384269120",
           "name": "おかずのみ",
           "price": -100
         }
-      ]
+      ],
+      "hasStapleFood": false
     },
     {
       "itemId": "1889586806839730368",
@@ -967,14 +967,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1889586806839730368",
@@ -987,14 +987,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269235709294592",
           "name": "ライス：小盛",
           "price": -30
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1889586806839730368",
@@ -1007,14 +1007,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1945300701129980992",
           "name": "きのこごはん",
           "price": 150
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1945293425384078400",
@@ -1027,7 +1027,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1965586745106932736",
@@ -1040,7 +1040,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1934794714991766016",
@@ -1049,7 +1049,7 @@
       "description": "バーベキュー風パウダー小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1934795274395463744",
@@ -1062,7 +1062,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1899726089604563008",
@@ -1071,7 +1071,7 @@
       "description": "冷やしうどんつゆ小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1945296728231345344",
@@ -1080,7 +1080,7 @@
       "description": "※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": true
     },
     {
       "itemId": "1899642967160520704",
@@ -1089,7 +1089,7 @@
       "description": "減塩醤油小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": true
     },
     {
       "itemId": "1899642967160520704",
@@ -1098,14 +1098,14 @@
       "description": "減塩醤油小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915262314029936768",
@@ -1118,7 +1118,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": true
     },
     {
       "itemId": "1915262493770690752",
@@ -1127,7 +1127,7 @@
       "description": "減塩醤油小袋\n※小盛・大盛変更はできません\n※店舗により容器が異なる場合がございます。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": true
     },
     {
       "itemId": "1915262872241467520",
@@ -1140,7 +1140,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": true
     },
     {
       "itemId": "1915262872241467520",
@@ -1153,14 +1153,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915262872241467520",
@@ -1173,14 +1173,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1945300997977610816",
           "name": "きのこごはん",
           "price": 150
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915263688062955648",
@@ -1194,7 +1194,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": true
     },
     {
       "itemId": "1915263688062955648",
@@ -1208,14 +1208,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915263688062955648",
@@ -1229,14 +1229,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1945300997977610816",
           "name": "きのこごはん",
           "price": 150
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915263892197781696",
@@ -1250,7 +1250,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": true
     },
     {
       "itemId": "1915263892197781696",
@@ -1264,14 +1264,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915263892197781696",
@@ -1285,14 +1285,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1945300997977610816",
           "name": "きのこごはん",
           "price": 150
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1911630229568663616",
@@ -1305,7 +1305,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": true
     },
     {
       "itemId": "1911630229568663616",
@@ -1318,14 +1318,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1701442935384269120",
           "name": "おかずのみ",
           "price": -100
         }
-      ]
+      ],
+      "hasStapleFood": false
     },
     {
       "itemId": "1911630229568663616",
@@ -1338,14 +1338,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1911630229568663616",
@@ -1358,14 +1358,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269235709294592",
           "name": "ライス：小盛",
           "price": -30
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1911630229568663616",
@@ -1378,14 +1378,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1945300701129980992",
           "name": "きのこごはん",
           "price": 150
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1911630590640996416",
@@ -1398,7 +1398,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": true
     },
     {
       "itemId": "1911630590640996416",
@@ -1411,14 +1411,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1701442935384269120",
           "name": "おかずのみ",
           "price": -100
         }
-      ]
+      ],
+      "hasStapleFood": false
     },
     {
       "itemId": "1911630590640996416",
@@ -1431,14 +1431,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1911630590640996416",
@@ -1451,14 +1451,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269235709294592",
           "name": "ライス：小盛",
           "price": -30
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1911630590640996416",
@@ -1471,14 +1471,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1945300701129980992",
           "name": "きのこごはん",
           "price": 150
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915257362062667904",
@@ -1491,7 +1491,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": true
     },
     {
       "itemId": "1915257362062667904",
@@ -1504,14 +1504,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1701442935384269120",
           "name": "おかずのみ",
           "price": -100
         }
-      ]
+      ],
+      "hasStapleFood": false
     },
     {
       "itemId": "1915257362062667904",
@@ -1524,14 +1524,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915257362062667904",
@@ -1544,14 +1544,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269235709294592",
           "name": "ライス：小盛",
           "price": -30
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915257362062667904",
@@ -1564,14 +1564,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1945300701129980992",
           "name": "きのこごはん",
           "price": 150
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915258655850084352",
@@ -1584,7 +1584,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": true
     },
     {
       "itemId": "1915258655850084352",
@@ -1597,14 +1597,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1701442935384269120",
           "name": "おかずのみ",
           "price": -100
         }
-      ]
+      ],
+      "hasStapleFood": false
     },
     {
       "itemId": "1915258655850084352",
@@ -1617,14 +1617,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915258655850084352",
@@ -1637,14 +1637,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269235709294592",
           "name": "ライス：小盛",
           "price": -30
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915258655850084352",
@@ -1657,14 +1657,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1945300701129980992",
           "name": "きのこごはん",
           "price": 150
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915259082460777664",
@@ -1673,7 +1673,7 @@
       "description": "とんかつソース小袋、和がらし小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": true
     },
     {
       "itemId": "1915259082460777664",
@@ -1682,14 +1682,14 @@
       "description": "とんかつソース小袋、和がらし小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1701442935384269120",
           "name": "おかずのみ",
           "price": -100
         }
-      ]
+      ],
+      "hasStapleFood": false
     },
     {
       "itemId": "1915259082460777664",
@@ -1698,14 +1698,14 @@
       "description": "とんかつソース小袋、和がらし小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915259082460777664",
@@ -1714,14 +1714,14 @@
       "description": "とんかつソース小袋、和がらし小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269235709294592",
           "name": "ライス：小盛",
           "price": -30
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915259082460777664",
@@ -1730,14 +1730,14 @@
       "description": "とんかつソース小袋、和がらし小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。\n商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1945300701129980992",
           "name": "きのこごはん",
           "price": 150
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915259592599973952",
@@ -1746,7 +1746,7 @@
       "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": true
     },
     {
       "itemId": "1915259592599973952",
@@ -1755,14 +1755,14 @@
       "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1701442935384269120",
           "name": "おかずのみ",
           "price": -100
         }
-      ]
+      ],
+      "hasStapleFood": false
     },
     {
       "itemId": "1915259592599973952",
@@ -1771,14 +1771,14 @@
       "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915259592599973952",
@@ -1787,14 +1787,14 @@
       "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269235709294592",
           "name": "ライス：小盛",
           "price": -30
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915259592599973952",
@@ -1803,14 +1803,14 @@
       "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。\n商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1945300701129980992",
           "name": "きのこごはん",
           "price": 150
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915259766933975168",
@@ -1819,7 +1819,7 @@
       "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": true
     },
     {
       "itemId": "1915259766933975168",
@@ -1828,14 +1828,14 @@
       "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1701442935384269120",
           "name": "おかずのみ",
           "price": -100
         }
-      ]
+      ],
+      "hasStapleFood": false
     },
     {
       "itemId": "1915259766933975168",
@@ -1844,14 +1844,14 @@
       "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915259766933975168",
@@ -1860,14 +1860,14 @@
       "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269235709294592",
           "name": "ライス：小盛",
           "price": -30
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915259766933975168",
@@ -1876,14 +1876,14 @@
       "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。\n商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1945300701129980992",
           "name": "きのこごはん",
           "price": 150
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1911630830432072192",
@@ -1896,7 +1896,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": true
     },
     {
       "itemId": "1911630830432072192",
@@ -1909,14 +1909,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1701442935384269120",
           "name": "おかずのみ",
           "price": -100
         }
-      ]
+      ],
+      "hasStapleFood": false
     },
     {
       "itemId": "1911630830432072192",
@@ -1929,14 +1929,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1911630830432072192",
@@ -1949,14 +1949,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269235709294592",
           "name": "ライス：小盛",
           "price": -30
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1911630830432072192",
@@ -1969,14 +1969,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1945300701129980992",
           "name": "きのこごはん",
           "price": 150
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915259999424245888",
@@ -1985,7 +1985,7 @@
       "description": "オリジナル旨だれ小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※牛焼肉は、形を整えるための成形・加工を行っております。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": true
     },
     {
       "itemId": "1915259999424245888",
@@ -1994,14 +1994,14 @@
       "description": "オリジナル旨だれ小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※牛焼肉は、形を整えるための成形・加工を行っております。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1701442935384269120",
           "name": "おかずのみ",
           "price": -100
         }
-      ]
+      ],
+      "hasStapleFood": false
     },
     {
       "itemId": "1915259999424245888",
@@ -2010,14 +2010,14 @@
       "description": "オリジナル旨だれ小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※牛焼肉は、形を整えるための成形・加工を行っております。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915259999424245888",
@@ -2026,14 +2026,14 @@
       "description": "オリジナル旨だれ小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※牛焼肉は、形を整えるための成形・加工を行っております。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269235709294592",
           "name": "ライス：小盛",
           "price": -30
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915259999424245888",
@@ -2042,14 +2042,14 @@
       "description": "オリジナル旨だれ小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※牛焼肉は、形を整えるための成形・加工を行っております。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。\n商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1945300701129980992",
           "name": "きのこごはん",
           "price": 150
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915260200373350528",
@@ -2058,7 +2058,7 @@
       "description": "オリジナル旨だれ小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※牛焼肉は、形を整えるための成形・加工を行っております。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": true
     },
     {
       "itemId": "1915260200373350528",
@@ -2067,14 +2067,14 @@
       "description": "オリジナル旨だれ小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※牛焼肉は、形を整えるための成形・加工を行っております。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1701442935384269120",
           "name": "おかずのみ",
           "price": -100
         }
-      ]
+      ],
+      "hasStapleFood": false
     },
     {
       "itemId": "1915260200373350528",
@@ -2083,14 +2083,14 @@
       "description": "オリジナル旨だれ小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※牛焼肉は、形を整えるための成形・加工を行っております。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915260200373350528",
@@ -2099,14 +2099,14 @@
       "description": "オリジナル旨だれ小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※牛焼肉は、形を整えるための成形・加工を行っております。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269235709294592",
           "name": "ライス：小盛",
           "price": -30
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915260200373350528",
@@ -2115,14 +2115,14 @@
       "description": "オリジナル旨だれ小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※牛焼肉は、形を整えるための成形・加工を行っております。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。\n商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1945300701129980992",
           "name": "きのこごはん",
           "price": 150
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1911631094213294336",
@@ -2135,7 +2135,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": true
     },
     {
       "itemId": "1911631094213294336",
@@ -2148,14 +2148,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1701442935384269120",
           "name": "おかずのみ",
           "price": -100
         }
-      ]
+      ],
+      "hasStapleFood": false
     },
     {
       "itemId": "1911631094213294336",
@@ -2168,14 +2168,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1911631094213294336",
@@ -2188,14 +2188,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269235709294592",
           "name": "ライス：小盛",
           "price": -30
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1911631094213294336",
@@ -2208,14 +2208,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1945300701129980992",
           "name": "きのこごはん",
           "price": 150
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915260372530802752",
@@ -2228,7 +2228,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": true
     },
     {
       "itemId": "1915260372530802752",
@@ -2241,14 +2241,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1701442935384269120",
           "name": "おかずのみ",
           "price": -100
         }
-      ]
+      ],
+      "hasStapleFood": false
     },
     {
       "itemId": "1915260372530802752",
@@ -2261,14 +2261,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915260372530802752",
@@ -2281,14 +2281,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269235709294592",
           "name": "ライス：小盛",
           "price": -30
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915260372530802752",
@@ -2301,14 +2301,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1945300701129980992",
           "name": "きのこごはん",
           "price": 150
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915260549658210432",
@@ -2321,7 +2321,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": true
     },
     {
       "itemId": "1915260549658210432",
@@ -2334,14 +2334,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1701442935384269120",
           "name": "おかずのみ",
           "price": -100
         }
-      ]
+      ],
+      "hasStapleFood": false
     },
     {
       "itemId": "1915260549658210432",
@@ -2354,14 +2354,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915260549658210432",
@@ -2374,14 +2374,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269235709294592",
           "name": "ライス：小盛",
           "price": -30
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915260549658210432",
@@ -2394,14 +2394,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1945300701129980992",
           "name": "きのこごはん",
           "price": 150
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915260871741059136",
@@ -2414,7 +2414,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": true
     },
     {
       "itemId": "1915260871741059136",
@@ -2427,14 +2427,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1701442935384269120",
           "name": "おかずのみ",
           "price": -100
         }
-      ]
+      ],
+      "hasStapleFood": false
     },
     {
       "itemId": "1915260871741059136",
@@ -2447,14 +2447,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915260871741059136",
@@ -2467,14 +2467,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269235709294592",
           "name": "ライス：小盛",
           "price": -30
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915260871741059136",
@@ -2487,14 +2487,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1945300701129980992",
           "name": "きのこごはん",
           "price": 150
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1911631297226571328",
@@ -2507,7 +2507,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": true
     },
     {
       "itemId": "1911631297226571328",
@@ -2520,14 +2520,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1701442935384269120",
           "name": "おかずのみ",
           "price": -100
         }
-      ]
+      ],
+      "hasStapleFood": false
     },
     {
       "itemId": "1911631297226571328",
@@ -2540,14 +2540,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1911631297226571328",
@@ -2560,14 +2560,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269235709294592",
           "name": "ライス：小盛",
           "price": -30
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1911631297226571328",
@@ -2580,14 +2580,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1945300701129980992",
           "name": "きのこごはん",
           "price": 150
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1911631530144086272",
@@ -2600,7 +2600,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": true
     },
     {
       "itemId": "1911631530144086272",
@@ -2613,14 +2613,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1701442935384269120",
           "name": "おかずのみ",
           "price": -100
         }
-      ]
+      ],
+      "hasStapleFood": false
     },
     {
       "itemId": "1911631530144086272",
@@ -2633,14 +2633,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1911631530144086272",
@@ -2653,14 +2653,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269235709294592",
           "name": "ライス：小盛",
           "price": -30
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1911631530144086272",
@@ -2673,14 +2673,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1945300701129980992",
           "name": "きのこごはん",
           "price": 150
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915261117436770304",
@@ -2689,7 +2689,7 @@
       "description": "七味小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※店舗により容器が異なる場合がございます。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": true
     },
     {
       "itemId": "1915261117436770304",
@@ -2698,14 +2698,14 @@
       "description": "七味小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※店舗により容器が異なる場合がございます。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1701442935384269120",
           "name": "おかずのみ",
           "price": -100
         }
-      ]
+      ],
+      "hasStapleFood": false
     },
     {
       "itemId": "1915261117436770304",
@@ -2714,14 +2714,14 @@
       "description": "七味小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※店舗により容器が異なる場合がございます。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915261117436770304",
@@ -2730,14 +2730,14 @@
       "description": "七味小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※店舗により容器が異なる場合がございます。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269235709294592",
           "name": "ライス：小盛",
           "price": -30
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915261117436770304",
@@ -2746,14 +2746,14 @@
       "description": "七味小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※店舗により容器が異なる場合がございます。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。\n商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1945300701129980992",
           "name": "きのこごはん",
           "price": 150
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915261536057669632",
@@ -2762,7 +2762,7 @@
       "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※店舗により容器が異なる場合がございます。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": true
     },
     {
       "itemId": "1915261536057669632",
@@ -2771,14 +2771,14 @@
       "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※店舗により容器が異なる場合がございます。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1701442935384269120",
           "name": "おかずのみ",
           "price": -100
         }
-      ]
+      ],
+      "hasStapleFood": false
     },
     {
       "itemId": "1915261536057669632",
@@ -2787,14 +2787,14 @@
       "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※店舗により容器が異なる場合がございます。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915261536057669632",
@@ -2803,14 +2803,14 @@
       "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※店舗により容器が異なる場合がございます。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269235709294592",
           "name": "ライス：小盛",
           "price": -30
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915261536057669632",
@@ -2819,14 +2819,14 @@
       "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※店舗により容器が異なる場合がございます。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。\n商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1945300701129980992",
           "name": "きのこごはん",
           "price": 150
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1911631756972046528",
@@ -2839,7 +2839,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": true
     },
     {
       "itemId": "1911631756972046528",
@@ -2852,14 +2852,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915264077575385216",
@@ -2872,7 +2872,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": false
     },
     {
       "itemId": "1915264077575385216",
@@ -2885,14 +2885,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915264836702287872",
@@ -2901,7 +2901,7 @@
       "description": "七味小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true
+      "hasStapleFood": false
     },
     {
       "itemId": "1915264836702287872",
@@ -2910,14 +2910,14 @@
       "description": "七味小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": true,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915265253991821504",
@@ -2926,7 +2926,7 @@
       "description": "カレースパイス小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1915265253991821504",
@@ -2935,14 +2935,14 @@
       "description": "カレースパイス小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": false,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915265517161003008",
@@ -2951,7 +2951,7 @@
       "description": "カレースパイス小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1915265517161003008",
@@ -2960,14 +2960,14 @@
       "description": "カレースパイス小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": false,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915265722912764032",
@@ -2980,7 +2980,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1915265722912764032",
@@ -2993,14 +2993,14 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": false,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915266183548006528",
@@ -3009,7 +3009,7 @@
       "description": "カレースパイス小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1911628347672539136",
@@ -3018,7 +3018,7 @@
       "description": "しお小袋、ケチャップ\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1911628724402208832",
@@ -3031,7 +3031,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1911629006494284032",
@@ -3044,7 +3044,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1945293425384078400",
@@ -3057,7 +3057,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1965586745106932736",
@@ -3070,7 +3070,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1911629298254264576",
@@ -3083,7 +3083,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1965641523650966528",
@@ -3092,7 +3092,7 @@
       "description": "七味小袋\n※期間限定価格　2025/10/1(水)～2026/2/28(土）\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1965642084580406272",
@@ -3101,7 +3101,7 @@
       "description": "うま辛豚汁のたれ小袋\n※期間限定価格　2025/10/1(水)～2026/2/28(土）　\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1899726089604563008",
@@ -3110,7 +3110,7 @@
       "description": "冷やしうどんつゆ小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1915271078512734400",
@@ -3119,7 +3119,7 @@
       "description": "ミニうどんだし小袋、七味小袋\n※お湯を入れてお召し上がりください。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1915271321687668736",
@@ -3128,7 +3128,7 @@
       "description": "※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1915271471361406976",
@@ -3137,7 +3137,7 @@
       "description": "※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1915271716052908032",
@@ -3150,7 +3150,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1915271906615144512",
@@ -3159,7 +3159,7 @@
       "description": "※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1915272031378911296",
@@ -3168,7 +3168,7 @@
       "description": "※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1934794714991766016",
@@ -3177,7 +3177,7 @@
       "description": "バーベキュー風パウダー小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1934795274395463744",
@@ -3190,7 +3190,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1922833436258464896",
@@ -3199,7 +3199,7 @@
       "description": "※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1922833657141213376",
@@ -3208,7 +3208,7 @@
       "description": "※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1922833970208258304",
@@ -3217,7 +3217,7 @@
       "description": "※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1911633570010282176",
@@ -3226,7 +3226,7 @@
       "description": "※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1915269508100157568",
@@ -3235,7 +3235,7 @@
       "description": "から揚スパイス小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1911631983261692416",
@@ -3248,7 +3248,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1915269765043220608",
@@ -3261,7 +3261,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1915270022057586816",
@@ -3274,7 +3274,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1915270185161308160",
@@ -3283,7 +3283,7 @@
       "description": "しお小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1818904396920179968",
@@ -3296,7 +3296,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1915272286348406912",
@@ -3309,7 +3309,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1899648933415354432",
@@ -3318,7 +3318,7 @@
       "description": "ソース小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1915272441340344320",
@@ -3331,7 +3331,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1899646992069242176",
@@ -3340,7 +3340,7 @@
       "description": "減塩醤油小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     },
     {
       "itemId": "1945296728231345344",
@@ -3349,7 +3349,7 @@
       "description": "※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": true
     },
     {
       "itemId": "1915272699690781824",
@@ -3358,7 +3358,7 @@
       "description": "※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": true
     },
     {
       "itemId": "1915272699690781824",
@@ -3367,14 +3367,14 @@
       "description": "※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [],
       "isAlcohol": false,
-      "isBento": false,
       "customizeItems": [
         {
           "itemId": "1915269016078759936",
           "name": "ライス：大盛",
           "price": 90
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1915272699690781824",
@@ -3383,14 +3383,14 @@
       "description": "※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [],
       "isAlcohol": false,
-      "isBento": false,
       "customizeItems": [
         {
           "itemId": "1915269235709294592",
           "name": "ライス：小盛",
           "price": -30
         }
-      ]
+      ],
+      "hasStapleFood": true
     },
     {
       "itemId": "1729023300953698560",
@@ -3399,7 +3399,7 @@
       "description": "※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_EGG"],
       "isAlcohol": false,
-      "isBento": false
+      "hasStapleFood": false
     }
   ]
 }

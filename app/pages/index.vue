@@ -60,13 +60,13 @@ const state = ref<{
   allowDuplicates: boolean
   maxBudget: number
   minBudget: number
-  requireBento: boolean
+  requireStapleFood: boolean
   result?: IGachaResult
 }>({
   allowDuplicates: true,
   maxBudget: 800,
   minBudget: 800,
-  requireBento: true,
+  requireStapleFood: true,
   result: undefined,
 })
 
@@ -77,7 +77,7 @@ const handlePullGacha = async () => {
     state.value.maxBudget,
     {
       allowDuplicates: state.value.allowDuplicates,
-      requireBento: state.value.requireBento,
+      requireStapleFood: state.value.requireStapleFood,
     },
   )
 
@@ -199,8 +199,8 @@ const shareToX = () => {
                     重複可
                   </label>
                   <label class="flex items-center gap-2 cursor-pointer">
-                    <ToggleSwitch v-model="state.requireBento" />
-                    弁当確定
+                    <ToggleSwitch v-model="state.requireStapleFood" />
+                    主食確定
                   </label>
                 </div>
                 <div class="flex-grow flex items-end justify-end">
@@ -270,10 +270,10 @@ const shareToX = () => {
                     </div>
                     <div class="flex flex-wrap gap-2">
                       <Tag
-                        v-if="item.isBento"
+                        v-if="item.hasStapleFood"
                         class="text-xs"
                         severity="info"
-                        value="弁当"
+                        value="主食"
                       />
                       <Tag
                         v-for="customizeItem in item.customizeItems"
