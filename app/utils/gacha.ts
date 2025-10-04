@@ -65,16 +65,15 @@ export function pullGacha(
     }
   }
 
-  // 主食不要の場合は全組み合わせから選択
-  const validCombinations = generateCombinations(
+  // ランダムサンプリング方式で効率的に組み合わせを生成
+  const validCombination = generateRandomCombination(
     menuItems,
     minBudget,
     maxBudget,
-    false,
     allowDuplicates,
   )
 
-  if (validCombinations.length === 0) {
+  if (!validCombination) {
     return {
       items: [],
       maxBudget,
@@ -85,11 +84,10 @@ export function pullGacha(
     }
   }
 
-  const selectedCombination = validCombinations[Math.floor(Math.random() * validCombinations.length)]!
-  const totalAmount = selectedCombination.reduce((sum, item) => sum + item.price, 0)
+  const totalAmount = validCombination.reduce((sum, item) => sum + item.price, 0)
 
   return {
-    items: selectedCombination,
+    items: validCombination,
     maxBudget,
     minBudget,
     options,
@@ -98,135 +96,117 @@ export function pullGacha(
   }
 }
 
-function generateCombinations(
+function generateRandomCombination(
   menuItems: TMenuItem[],
   minBudget: number,
   maxBudget: number,
-  requireStapleFood: boolean,
   allowDuplicates: boolean,
-): TMenuItem[][] {
-  const validCombinations: TMenuItem[][] = []
+  maxAttempts: number = 1000,
+): null | TMenuItem[] {
+  // 価格でソートして効率的な探索を可能にする
+  const sortedItems = [...menuItems].toSorted((a, b) => a.price - b.price)
 
-  function backtrack(
-    currentCombination: TMenuItem[],
-    currentTotal: number,
-    startIndex: number,
-    usedItemIds: Set<string>,
-  ) {
-    // 予算範囲内で主食条件を満たしている場合は有効な組み合わせとして追加
-    if (currentTotal >= minBudget && currentTotal <= maxBudget) {
-      const hasStapleFood = currentCombination.some(item => item.hasStapleFood)
+  for (let attempt = 0; attempt < maxAttempts; attempt++) {
+    const combination: TMenuItem[] = []
+    const usedItemIds = new Set<string>()
+    let currentTotal = 0
 
-      if (!requireStapleFood || hasStapleFood) {
-        validCombinations.push([...currentCombination])
-      }
-    }
+    // ランダムに開始アイテムを選択
+    const availableItems = sortedItems.filter(item => item.price <= maxBudget)
 
-    // 最大予算を超えた場合は探索を停止
-    if (currentTotal >= maxBudget) {
-      return
-    }
+    if (availableItems.length === 0) return null
 
-    // 残りのアイテムを試す
-    for (let i = startIndex; i < menuItems.length; i++) {
-      const item = menuItems[i]!
+    while (currentTotal < maxBudget) {
+      // 残り予算内で選択可能なアイテムを絞り込み
+      const remainingBudget = maxBudget - currentTotal
+      const candidateItems = availableItems.filter((item) => {
+        if (item.price > remainingBudget) return false
+        if (!allowDuplicates && usedItemIds.has(item.itemId)) return false
 
-      // 予算オーバーの場合はスキップ
-      if (currentTotal + item.price > maxBudget) continue
+        return true
+      })
 
-      // 重複不可で既に使用済みの場合はスキップ
-      if (!allowDuplicates && usedItemIds.has(item.itemId)) continue
+      if (candidateItems.length === 0) break
 
-      // アイテムを追加して再帰的に探索
-      currentCombination.push(item)
-      const newUsedIds = new Set(usedItemIds)
+      // ランダムにアイテムを選択
+      const selectedItem = candidateItems[Math.floor(Math.random() * candidateItems.length)]!
+
+      combination.push(selectedItem)
+      currentTotal += selectedItem.price
 
       if (!allowDuplicates) {
-        newUsedIds.add(item.itemId)
+        usedItemIds.add(selectedItem.itemId)
       }
 
-      backtrack(
-        currentCombination,
-        currentTotal + item.price,
-        allowDuplicates ? i : i + 1,
-        newUsedIds,
-      )
-
-      // バックトラック
-      currentCombination.pop()
+      // 予算範囲内に入ったら成功
+      if (currentTotal >= minBudget && currentTotal <= maxBudget) {
+        return combination
+      }
     }
   }
 
-  backtrack([], 0, 0, new Set())
-
-  return validCombinations
+  return null
 }
 
-function generateCombinationsWithStapleFood(
+function generateRandomCombinationWithStapleFood(
   otherItems: TMenuItem[],
   stapleFood: TMenuItem,
   minBudget: number,
   maxBudget: number,
   allowDuplicates: boolean,
-): TMenuItem[][] {
-  const validCombinations: TMenuItem[][] = []
+  maxAttempts: number = 1000,
+): null | TMenuItem[] {
+  // 価格でソートして効率的な探索を可能にする
+  const sortedItems = [...otherItems].toSorted((a, b) => a.price - b.price)
 
-  function backtrack(
-    currentCombination: TMenuItem[],
-    currentTotal: number,
-    startIndex: number,
-    usedItemIds: Set<string>,
-  ) {
-    // 予算範囲内の場合は有効な組み合わせとして追加
+  for (let attempt = 0; attempt < maxAttempts; attempt++) {
+    const combination: TMenuItem[] = [stapleFood]
+    const usedItemIds = new Set<string>()
+    let currentTotal = stapleFood.price
+
+    if (!allowDuplicates) {
+      usedItemIds.add(stapleFood.itemId)
+    }
+
+    // 予算範囲に入っているかチェック
     if (currentTotal >= minBudget && currentTotal <= maxBudget) {
-      validCombinations.push([...currentCombination])
+      return combination
     }
 
-    // 残り予算を超えた場合は探索を停止
-    if (currentTotal >= maxBudget) {
-      return
-    }
+    const availableItems = sortedItems.filter(item => item.price <= maxBudget - stapleFood.price)
 
-    // 残りのアイテムを試す
-    for (let i = startIndex; i < otherItems.length; i++) {
-      const item = otherItems[i]!
+    if (availableItems.length === 0 && currentTotal < minBudget) continue
 
-      // 予算オーバーの場合はスキップ
-      if (currentTotal + item.price > maxBudget) continue
+    while (currentTotal < maxBudget) {
+      // 残り予算内で選択可能なアイテムを絞り込み
+      const remainingBudget = maxBudget - currentTotal
+      const candidateItems = availableItems.filter((item) => {
+        if (item.price > remainingBudget) return false
+        if (!allowDuplicates && usedItemIds.has(item.itemId)) return false
 
-      // 重複不可で既に使用済みの場合はスキップ
-      if (!allowDuplicates && usedItemIds.has(item.itemId)) continue
+        return true
+      })
 
-      // アイテムを追加して再帰的に探索
-      currentCombination.push(item)
-      const newUsedIds = new Set(usedItemIds)
+      if (candidateItems.length === 0) break
+
+      // ランダムにアイテムを選択
+      const selectedItem = candidateItems[Math.floor(Math.random() * candidateItems.length)]!
+
+      combination.push(selectedItem)
+      currentTotal += selectedItem.price
 
       if (!allowDuplicates) {
-        newUsedIds.add(item.itemId)
+        usedItemIds.add(selectedItem.itemId)
       }
 
-      backtrack(
-        currentCombination,
-        currentTotal + item.price,
-        allowDuplicates ? i : i + 1,
-        newUsedIds,
-      )
-
-      // バックトラック
-      currentCombination.pop()
+      // 予算範囲内に入ったら成功
+      if (currentTotal >= minBudget && currentTotal <= maxBudget) {
+        return combination
+      }
     }
   }
 
-  // 主食から開始
-  const initialUsedIds = new Set<string>()
-
-  if (!allowDuplicates) {
-    initialUsedIds.add(stapleFood.itemId)
-  }
-
-  backtrack([stapleFood], stapleFood.price, 0, initialUsedIds)
-
-  return validCombinations
+  return null
 }
 
 function pullStapleFoodGacha(
@@ -256,8 +236,8 @@ function pullStapleFoodGacha(
       ? menuItems
       : menuItems.filter(item => item.itemId !== stapleFood.itemId)
 
-    // この主食で組み合わせを探す
-    const validCombinations = generateCombinationsWithStapleFood(
+    // この主食でランダムサンプリング方式で組み合わせを探す
+    const validCombination = generateRandomCombinationWithStapleFood(
       otherItems,
       stapleFood,
       minBudget,
@@ -265,12 +245,11 @@ function pullStapleFoodGacha(
       allowDuplicates,
     )
 
-    if (validCombinations.length > 0) {
-      const selectedCombination = validCombinations[Math.floor(Math.random() * validCombinations.length)]!
-      const totalAmount = selectedCombination.reduce((sum, item) => sum + item.price, 0)
+    if (validCombination) {
+      const totalAmount = validCombination.reduce((sum, item) => sum + item.price, 0)
 
       return {
-        items: selectedCombination,
+        items: validCombination,
         maxBudget,
         minBudget,
         success: true,
