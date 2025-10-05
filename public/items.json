@@ -747,7 +747,7 @@
       "description": "カレースパイス小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "hasStapleFood": false
+      "hasStapleFood": true
     },
     {
       "itemId": "1945289189896846592",
@@ -776,7 +776,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "hasStapleFood": false
+      "hasStapleFood": true
     },
     {
       "itemId": "1945289876156284160",
@@ -805,7 +805,7 @@
       "description": "カレースパイス小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "hasStapleFood": false
+      "hasStapleFood": true
     },
     {
       "itemId": "1945290429934435584",
@@ -830,7 +830,7 @@
       "description": "カレースパイス小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "hasStapleFood": false
+      "hasStapleFood": true
     },
     {
       "itemId": "1945290947981311232",
@@ -2926,7 +2926,7 @@
       "description": "カレースパイス小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "hasStapleFood": false
+      "hasStapleFood": true
     },
     {
       "itemId": "1915265253991821504",
@@ -2951,7 +2951,7 @@
       "description": "カレースパイス小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
-      "hasStapleFood": false
+      "hasStapleFood": true
     },
     {
       "itemId": "1915265517161003008",
@@ -2980,7 +2980,7 @@
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
-      "hasStapleFood": false
+      "hasStapleFood": true
     },
     {
       "itemId": "1915265722912764032",
