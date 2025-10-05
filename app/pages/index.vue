@@ -22,8 +22,43 @@ import {
 } from '~/utils/gacha'
 import { menuItems } from '~/utils/menu-item'
 
+const pageTitle = 'ほっともっと ￥800ガチャ'
+const pageDescription = 'ほっともっとのメニューでガチャしよう！'
+
 useHead({
-  title: 'ほっともっと ￥800ガチャ',
+  meta: [
+    {
+      content: pageDescription,
+      name: 'description',
+    },
+    {
+      content: pageTitle,
+      name: 'og:title',
+      property: 'og:title',
+    },
+    {
+      content: pageDescription,
+      name: 'og:description',
+      property: 'og:description',
+    },
+    {
+      content: '@tmprar',
+      name: 'twitter:site',
+    },
+    {
+      content: 'summary',
+      name: 'twitter:card',
+    },
+    {
+      content: pageTitle,
+      name: 'twitter:title',
+    },
+    {
+      content: pageDescription,
+      name: 'twitter:description',
+    },
+  ],
+  title: pageTitle,
 })
 
 const toNumberFormat = (value: number, options?: { style?: 'none' | keyof Intl.NumberFormatOptionsStyleRegistry }) => new Intl.NumberFormat('ja-JP', {
