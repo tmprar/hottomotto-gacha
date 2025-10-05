@@ -1,11 +1,33 @@
-import type { TMenuItem } from '~/utils/menu-item'
-
 export enum Allergen {
   CRAB = 'ALLERGEN_TYPE_CRAB',
   EGG = 'ALLERGEN_TYPE_EGG',
   MILK = 'ALLERGEN_TYPE_MILK',
   SHRIMP = 'ALLERGEN_TYPE_SHRIMP',
   WHEAT = 'ALLERGEN_TYPE_WHEAT',
+}
+
+export type TMenuItem = {
+  allergens: string[]
+  customizeItems: {
+    itemId: string
+    name: string
+    price: number
+  }[]
+  description: string
+  hasStapleFood: boolean
+  isAlcohol: boolean
+  itemId: string
+  name: string
+  price: number
+} | {
+  allergens: string[]
+  customizeItems?: undefined
+  description: string
+  hasStapleFood: boolean
+  isAlcohol: boolean
+  itemId: string
+  name: string
+  price: number
 }
 
 export const ALLERGEN_METADATA = {

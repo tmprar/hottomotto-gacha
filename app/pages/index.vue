@@ -14,13 +14,13 @@ import {
 import type {
   Allergen,
   IGachaResult,
+  TMenuItem,
 } from '~/utils/gacha'
 
 import {
   ALLERGEN_METADATA,
   pullGacha,
 } from '~/utils/gacha'
-import { menuItems } from '~/utils/menu-item'
 
 const pageTitle = 'ほっともっと 800円ガチャ'
 const pageDescription = 'ほっともっとのメニューでガチャしよう！'
@@ -113,9 +113,11 @@ const state = ref<{
   result: undefined,
 })
 
+const menuItems = ref<TMenuItem[]>([])
+
 const handlePullGacha = async () => {
   const result = pullGacha(
-    menuItems,
+    menuItems.value,
     state.value.minBudget,
     state.value.maxBudget,
     {
@@ -214,6 +216,12 @@ const shareToX = () => {
 
   window.open(twitterUrl, '_blank')
 }
+
+void (async () => {
+  const json = await $fetch<{ items: TMenuItem[] }>('/items.json')
+
+  menuItems.value = json.items
+})()
 </script>
 
 <template>
