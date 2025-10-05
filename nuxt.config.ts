@@ -1,5 +1,7 @@
 import tailwindcss from '@tailwindcss/vite'
 
+const description = 'メニューでガチャ'
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   app: {
@@ -7,6 +9,49 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: 'ja',
       },
+      meta: [
+        {
+          content: description,
+          name: 'description',
+        },
+        {
+          content: 'summary',
+          name: 'twitter:card',
+        },
+        {
+          content: '@tmprar',
+          name: 'twitter:site',
+        },
+        {
+          content: '@tmprar',
+          name: 'twitter:creator',
+        },
+        {
+          content: description,
+          property: 'twitter:description',
+        },
+        {
+          content: '',
+          property: 'twitter:image',
+        },
+        {
+          content: 'https://tmprar.github.io/hottomotto-gacha',
+          property: 'og:url',
+        },
+        {
+          content: 'ほっともっと 800円ガチャ',
+          property: 'og:title',
+        },
+        {
+          content: description,
+          property: 'og:description',
+        },
+        {
+          content: '',
+          property: 'og:image',
+        },
+      ],
+      title: 'ほっともっと 800円ガチャ',
     },
     pageTransition: {
       mode: 'out-in',
