@@ -26,6 +26,14 @@ useHead({
   title: 'ほっともっと ￥800ガチャ',
 })
 
+const toNumberFormat = (value: number, options?: { style?: 'none' | keyof Intl.NumberFormatOptionsStyleRegistry }) => new Intl.NumberFormat('ja-JP', {
+  currency: 'JPY',
+  currencyDisplay: 'name',
+  style: options?.style ? (options.style === 'none' ? undefined : options.style) : 'currency',
+}).format(value)
+
+const toNumberRangeFormat = (min: number, max: number) => `${toNumberFormat(min, { style: 'none' })}〜${toNumberFormat(max)}`
+
 enum Mode {
   BASIC = 'basic',
   PREMIUM = 'premium',
@@ -34,21 +42,21 @@ enum Mode {
 
 const MODE_METADATA = {
   [Mode.BASIC]: {
-    description: '800円ぴったり',
+    description: toNumberFormat(800),
     label: '梅',
     maxBudget: 800,
     minBudget: 800,
     value: Mode.BASIC,
   },
   [Mode.PREMIUM]: {
-    description: '800～1500円',
+    description: toNumberRangeFormat(800, 1500),
     label: '松',
     maxBudget: 1500,
     minBudget: 800,
     value: Mode.PREMIUM,
   },
   [Mode.STANDARD]: {
-    description: '800～1000円',
+    description: toNumberRangeFormat(800, 1000),
     label: '竹',
     maxBudget: 1000,
     minBudget: 800,
@@ -84,7 +92,10 @@ const handlePullGacha = async () => {
   state.value.result = result
 
   if (result.items.length > 0) {
-    await confetti()
+    await confetti({
+      particleCount: 90,
+      spread: 90,
+    })
   }
 }
 
@@ -134,17 +145,23 @@ const gachaMode = computed({
 const budget = computed({
   get: () => [state.value.minBudget, state.value.maxBudget],
   set: (budget) => {
-    const minBudget = budget[0] ?? 800
+    const budget0 = budget[0]
+    const budget1 = budget[1]
+
+    if (budget0 == undefined || budget1 == undefined) {
+      state.value.minBudget = 800
+      state.value.maxBudget = 800
+
+      return
+    }
+
+    const minBudget = Math.min(budget0, budget1)
+    const maxBudget = Math.max(budget0, budget1)
 
     state.value.minBudget = minBudget
-    state.value.maxBudget = budget[1] ?? minBudget
+    state.value.maxBudget = maxBudget
   },
 })
-
-const toNumberFormat = (value: number) => new Intl.NumberFormat('ja-JP', {
-  currency: 'JPY',
-  style: 'currency',
-}).format(value)
 
 const shareToX = () => {
   if (!state.value.result || state.value.result.items.length === 0) {
@@ -155,7 +172,7 @@ const shareToX = () => {
   const total = toNumberFormat(state.value.result.totalAmount)
   const budget = state.value.minBudget === state.value.maxBudget
     ? toNumberFormat(state.value.minBudget)
-    : `${toNumberFormat(state.value.minBudget)}〜${toNumberFormat(state.value.maxBudget)}`
+    : toNumberRangeFormat(state.value.minBudget, state.value.maxBudget)
   const text = `ほっともっと ${budget}ガチャ\n\n${items}\n\n合計: ${total}`
   const url = globalThis.location.href
   const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`
@@ -184,13 +201,17 @@ const shareToX = () => {
                   option-label="label"
                   option-value="value"
                   :options="[MODE_METADATA[Mode.PREMIUM], MODE_METADATA[Mode.STANDARD], MODE_METADATA[Mode.BASIC]]"
+                  :pt="{root: 'w-full sm:w-86 max-w-full', pcToggleButton: {root: 'flex-1', content: 'w-full'}}"
                 >
                   <template #option="slotProps">
-                    <div>
+                    <div class="w-full flex flex-col">
                       <div class="text-xl">
                         {{ slotProps.option.label }}
                       </div>
-                      <div class="text-xs text-gray-600">
+                      <div
+                        class="text-xs text-gray-600 overflow-hidden text-ellipsis whitespace-pre-wrap break-keep"
+                        :style="{display: '-webkit-box', boxOrient: 'vertical', lineClamp: 2}"
+                      >
                         {{ slotProps.option.description }}
                       </div>
                     </div>
@@ -234,14 +255,14 @@ const shareToX = () => {
                 <div>
                   <div class="flex flex-col gap-2">
                     <div class="mb-1">
-                      予算 {{ toNumberFormat(state.minBudget) }} ～ {{ toNumberFormat(state.maxBudget) }}
+                      予算 {{ toNumberRangeFormat(state.minBudget, state.maxBudget) }}
                     </div>
                     <Slider
                       v-model="budget"
-                      :max="2000"
-                      :min="800"
+                      :max="1500"
+                      :min="500"
                       range
-                      :step="100"
+                      :step="50"
                     />
                   </div>
                 </div>
@@ -300,9 +321,8 @@ const shareToX = () => {
                       />
                     </div>
                   </div>
-                  <div class="flex-grow" />
-                  <div class="flex items-center">
-                    <div class="text-lg">
+                  <div class="flex-grow flex items-center justify-end">
+                    <div class="text-lg whitespace-pre-wrap break-keep">
                       {{ toNumberFormat(item.price) }}
                     </div>
                   </div>
