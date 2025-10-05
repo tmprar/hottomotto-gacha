@@ -105,6 +105,7 @@ function generateRandomCombination(
 ): null | TMenuItem[] {
   // 価格でソートして効率的な探索を可能にする
   const sortedItems = [...menuItems].toSorted((a, b) => a.price - b.price)
+  let confirmedCombination: null | TMenuItem[] = null
 
   for (let attempt = 0; attempt < maxAttempts; attempt++) {
     const combination: TMenuItem[] = []
@@ -114,7 +115,7 @@ function generateRandomCombination(
     // ランダムに開始アイテムを選択
     const availableItems = sortedItems.filter(item => item.price <= maxBudget)
 
-    if (availableItems.length === 0) return null
+    if (availableItems.length === 0) return confirmedCombination
 
     while (currentTotal < maxBudget) {
       // 残り予算内で選択可能なアイテムを絞り込み
@@ -138,14 +139,17 @@ function generateRandomCombination(
         usedItemIds.add(selectedItem.itemId)
       }
 
-      // 予算範囲内に入ったら成功
+      // 予算範囲内に入ったら確定枠として保存し、50%の確率で続行
       if (currentTotal >= minBudget && currentTotal <= maxBudget) {
-        return combination
+        confirmedCombination = [...combination]
+        if (Math.random() < 0.5) {
+          return confirmedCombination
+        }
       }
     }
   }
 
-  return null
+  return confirmedCombination
 }
 
 function generateRandomCombinationWithStapleFood(
@@ -158,6 +162,7 @@ function generateRandomCombinationWithStapleFood(
 ): null | TMenuItem[] {
   // 価格でソートして効率的な探索を可能にする
   const sortedItems = [...otherItems].toSorted((a, b) => a.price - b.price)
+  let confirmedCombination: null | TMenuItem[] = null
 
   for (let attempt = 0; attempt < maxAttempts; attempt++) {
     const combination: TMenuItem[] = [stapleFood]
@@ -170,7 +175,10 @@ function generateRandomCombinationWithStapleFood(
 
     // 予算範囲に入っているかチェック
     if (currentTotal >= minBudget && currentTotal <= maxBudget) {
-      return combination
+      confirmedCombination = [...combination]
+      if (Math.random() < 0.5) {
+        return confirmedCombination
+      }
     }
 
     const availableItems = sortedItems.filter(item => item.price <= maxBudget - stapleFood.price)
@@ -199,14 +207,17 @@ function generateRandomCombinationWithStapleFood(
         usedItemIds.add(selectedItem.itemId)
       }
 
-      // 予算範囲内に入ったら成功
+      // 予算範囲内に入ったら確定枠として保存し、50%の確率で続行
       if (currentTotal >= minBudget && currentTotal <= maxBudget) {
-        return combination
+        confirmedCombination = [...combination]
+        if (Math.random() < 0.5) {
+          return confirmedCombination
+        }
       }
     }
   }
 
-  return null
+  return confirmedCombination
 }
 
 function pullStapleFoodGacha(
