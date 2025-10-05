@@ -37,7 +37,7 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Build
-        run: NUXT_APP_BASE_URL=/hottomotto-gacha/ pnpm nuxt build --preset github_pages
+        run: NUXT_APP_BASE_URL=/hottomotto-gacha/ NUXT_SITE_URL=https://tmprar.github.io/hottomotto-gacha NUXT_SITE_NAME='ほっともっと 800円ガチャ' pnpm nuxt build --preset github_pages
 
       - name: Setup Pages
         uses: actions/configure-pages@v4

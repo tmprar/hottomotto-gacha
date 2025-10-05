@@ -22,7 +22,7 @@ import {
 } from '~/utils/gacha'
 import { menuItems } from '~/utils/menu-item'
 
-const pageTitle = 'ほっともっと ￥800ガチャ'
+const pageTitle = 'ほっともっと 800円ガチャ'
 const pageDescription = 'ほっともっとのメニューでガチャしよう！'
 
 useHead({
@@ -224,7 +224,7 @@ const shareToX = () => {
           <div class="flex flex-col gap-4">
             <div class="flex justify-center gap-2">
               <div class="text-2xl font-bold">
-                ほっともっと ￥800ガチャ
+                ほっともっと 800円ガチャ
               </div>
             </div>
 

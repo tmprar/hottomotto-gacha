@@ -37,7 +37,7 @@ export default defineNuxtConfig({
     dirs: [],
     scan: false,
   },
-  modules: ['nitro-cloudflare-dev', '@nuxt/eslint'],
+  modules: ['nitro-cloudflare-dev', '@nuxt/eslint', '@nuxtjs/sitemap'],
   nitro: {
     cloudflare: {
       deployConfig: true,
