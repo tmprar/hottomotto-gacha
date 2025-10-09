@@ -1,27 +1,72 @@
 {
   "items": [
     {
-      "itemId": "1965593526572264832",
-      "name": "旨みぎゅっと！　４コ入りカキフライ弁当",
-      "price": 760,
-      "description": "フライソース小袋、レモン果汁小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "itemId": "1965599560199530496",
+      "name": "カキ×カキ　牡蠣づくし弁当",
+      "price": 1090,
+      "description": "フライソース小袋、レモン果汁小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
+      ],
+      "isAlcohol": false,
+      "hasStapleFood": true
+    },
+    {
+      "itemId": "1965599560199530496",
+      "name": "カキ×カキ　牡蠣づくし弁当",
+      "price": 1090,
+      "description": "フライソース小袋、レモン果汁小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG",
+        "ALLERGEN_TYPE_MILK"
+      ],
+      "isAlcohol": false,
+      "customizeItems": [
+        {
+          "itemId": "1915269016078759936",
+          "name": "ライス：大盛",
+          "price": 90
+        }
+      ],
+      "hasStapleFood": true
+    },
+    {
+      "itemId": "1965600256643411328",
+      "name": "～もち麦ごはんのミニ弁当～　もちミニ　かき弁当",
+      "price": 780,
+      "description": "※小盛・大盛変更はできません\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
       ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
     {
       "itemId": "1965593526572264832",
-      "name": "旨みぎゅっと！　４コ入りカキフライ弁当 (おかずのみ)",
-      "price": 660,
+      "name": "旨みぎゅっと！　４コ入りカキフライ弁当",
+      "price": 760,
       "description": "フライソース小袋、レモン果汁小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
+      ],
+      "isAlcohol": false,
+      "hasStapleFood": true
+    },
+    {
+      "itemId": "1965593526572264832",
+      "name": "旨みぎゅっと！　４コ入りカキフライ弁当",
+      "price": 760,
+      "description": "フライソース小袋、レモン果汁小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG",
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -35,13 +80,13 @@
     },
     {
       "itemId": "1965593526572264832",
-      "name": "旨みぎゅっと！　４コ入りカキフライ弁当 (ライス：大盛)",
-      "price": 850,
+      "name": "旨みぎゅっと！　４コ入りカキフライ弁当",
+      "price": 760,
       "description": "フライソース小袋、レモン果汁小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -55,13 +100,13 @@
     },
     {
       "itemId": "1965593526572264832",
-      "name": "旨みぎゅっと！　４コ入りカキフライ弁当 (ライス：小盛)",
-      "price": 730,
+      "name": "旨みぎゅっと！　４コ入りカキフライ弁当",
+      "price": 760,
       "description": "フライソース小袋、レモン果汁小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -75,13 +120,13 @@
     },
     {
       "itemId": "1965593526572264832",
-      "name": "旨みぎゅっと！　４コ入りカキフライ弁当 (きのこごはん)",
-      "price": 910,
-      "description": "フライソース小袋、レモン果汁小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。\n商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "name": "旨みぎゅっと！　４コ入りカキフライ弁当",
+      "price": 760,
+      "description": "フライソース小袋、レモン果汁小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -99,22 +144,22 @@
       "price": 970,
       "description": "フライソース小袋、レモン果汁小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
     {
       "itemId": "1965594343495476224",
-      "name": "しっかり大満足　６コ入りカキフライ弁当 (おかずのみ)",
-      "price": 870,
+      "name": "しっかり大満足　６コ入りカキフライ弁当",
+      "price": 970,
       "description": "フライソース小袋、レモン果汁小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -128,13 +173,13 @@
     },
     {
       "itemId": "1965594343495476224",
-      "name": "しっかり大満足　６コ入りカキフライ弁当 (ライス：大盛)",
-      "price": 1060,
+      "name": "しっかり大満足　６コ入りカキフライ弁当",
+      "price": 970,
       "description": "フライソース小袋、レモン果汁小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -148,13 +193,13 @@
     },
     {
       "itemId": "1965594343495476224",
-      "name": "しっかり大満足　６コ入りカキフライ弁当 (ライス：小盛)",
-      "price": 940,
+      "name": "しっかり大満足　６コ入りカキフライ弁当",
+      "price": 970,
       "description": "フライソース小袋、レモン果汁小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -168,13 +213,13 @@
     },
     {
       "itemId": "1965594343495476224",
-      "name": "しっかり大満足　６コ入りカキフライ弁当 (きのこごはん)",
-      "price": 1120,
-      "description": "フライソース小袋、レモン果汁小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。\n商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "name": "しっかり大満足　６コ入りカキフライ弁当",
+      "price": 970,
+      "description": "フライソース小袋、レモン果汁小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -187,27 +232,27 @@
       "hasStapleFood": true
     },
     {
-      "itemId": "1965590823498525696",
-      "name": "ナポリタン入り　３コ入りカキフライ弁当",
-      "price": 690,
-      "description": "フライソース小袋、レモン果汁小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "itemId": "1965588074070619136",
+      "name": "お手頃カキフライ　カキフライのりタル弁当",
+      "price": 580,
+      "description": "タルタルソース小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
     {
-      "itemId": "1965590823498525696",
-      "name": "ナポリタン入り　３コ入りカキフライ弁当 (ライス：大盛)",
-      "price": 780,
-      "description": "フライソース小袋、レモン果汁小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "itemId": "1965588074070619136",
+      "name": "お手頃カキフライ　カキフライのりタル弁当",
+      "price": 580,
+      "description": "タルタルソース小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -221,13 +266,46 @@
     },
     {
       "itemId": "1965590823498525696",
-      "name": "ナポリタン入り　３コ入りカキフライ弁当 (きのこごはん)",
-      "price": 840,
-      "description": "フライソース小袋、レモン果汁小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。\n商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "name": "ナポリタン入り　３コ入りカキフライ弁当",
+      "price": 690,
+      "description": "フライソース小袋、レモン果汁小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
+      ],
+      "isAlcohol": false,
+      "hasStapleFood": true
+    },
+    {
+      "itemId": "1965590823498525696",
+      "name": "ナポリタン入り　３コ入りカキフライ弁当",
+      "price": 690,
+      "description": "フライソース小袋、レモン果汁小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG",
+        "ALLERGEN_TYPE_MILK"
+      ],
+      "isAlcohol": false,
+      "customizeItems": [
+        {
+          "itemId": "1915269016078759936",
+          "name": "ライス：大盛",
+          "price": 90
+        }
+      ],
+      "hasStapleFood": true
+    },
+    {
+      "itemId": "1965590823498525696",
+      "name": "ナポリタン入り　３コ入りカキフライ弁当",
+      "price": 690,
+      "description": "フライソース小袋、レモン果汁小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG",
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -245,9 +323,9 @@
       "price": 240,
       "description": "ソース小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "hasStapleFood": false
@@ -258,22 +336,22 @@
       "price": 910,
       "description": "フライソース小袋、レモン果汁小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
     {
       "itemId": "1965597920754443456",
-      "name": "４コ入りカキフライ弁当＆わかめスープセット (おかずのみ)",
-      "price": 810,
+      "name": "４コ入りカキフライ弁当＆わかめスープセット",
+      "price": 910,
       "description": "フライソース小袋、レモン果汁小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -287,13 +365,13 @@
     },
     {
       "itemId": "1965597920754443456",
-      "name": "４コ入りカキフライ弁当＆わかめスープセット (ライス：大盛)",
-      "price": 1000,
+      "name": "４コ入りカキフライ弁当＆わかめスープセット",
+      "price": 910,
       "description": "フライソース小袋、レモン果汁小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -307,13 +385,13 @@
     },
     {
       "itemId": "1965597920754443456",
-      "name": "４コ入りカキフライ弁当＆わかめスープセット (ライス：小盛)",
-      "price": 880,
+      "name": "４コ入りカキフライ弁当＆わかめスープセット",
+      "price": 910,
       "description": "フライソース小袋、レモン果汁小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -330,7 +408,10 @@
       "name": "特製豚汁｜ｷｬﾝﾍﾟｰﾝ",
       "price": 160,
       "description": "七味小袋\n※期間限定価格　2025/10/1(水)～2026/2/28(土）\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_MILK"
+      ],
       "isAlcohol": false,
       "hasStapleFood": false
     },
@@ -339,7 +420,10 @@
       "name": "旨辛特製豚汁｜ｷｬﾝﾍﾟｰﾝ",
       "price": 190,
       "description": "うま辛豚汁のたれ小袋\n※期間限定価格　2025/10/1(水)～2026/2/28(土）　\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_MILK"
+      ],
       "isAlcohol": false,
       "hasStapleFood": false
     },
@@ -349,22 +433,22 @@
       "price": 790,
       "description": "※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
-      "hasStapleFood": false
+      "hasStapleFood": true
     },
     {
       "itemId": "1922832705063565504",
-      "name": "温玉と絡めて　大判牛焼きすき重(肉２枚) (ライス：大盛)",
-      "price": 880,
+      "name": "温玉と絡めて　大判牛焼きすき重(肉２枚)",
+      "price": 790,
       "description": "※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -382,22 +466,22 @@
       "price": 1230,
       "description": "※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
-      "hasStapleFood": false
+      "hasStapleFood": true
     },
     {
       "itemId": "1922833083835613568",
-      "name": "温玉と絡めて　W大判牛焼きすき重(肉４枚) (ライス：大盛)",
-      "price": 1320,
+      "name": "温玉と絡めて　W大判牛焼きすき重(肉４枚)",
+      "price": 1230,
       "description": "※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -410,14 +494,40 @@
       "hasStapleFood": true
     },
     {
+      "itemId": "1955802859033400320",
+      "name": "野菜が摂れる！　特製ナポリタン＆サラダ",
+      "price": 500,
+      "description": "※麺の大盛変更はできません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG",
+        "ALLERGEN_TYPE_MILK"
+      ],
+      "isAlcohol": false,
+      "hasStapleFood": true
+    },
+    {
+      "itemId": "1955803807172596800",
+      "name": "野菜が摂れる！　W特製ナポリタン＆サラダ(麺２倍)",
+      "price": 650,
+      "description": "※麺の大盛変更はできません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG",
+        "ALLERGEN_TYPE_MILK"
+      ],
+      "isAlcohol": false,
+      "hasStapleFood": true
+    },
+    {
       "itemId": "1955805279759176768",
       "name": "ボリューム満点！　特製ナポリタン弁当",
       "price": 550,
       "description": "※ライスと麺の大盛変更はできません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "hasStapleFood": true
@@ -428,9 +538,9 @@
       "price": 700,
       "description": "※ライスと麺の大盛変更はできません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "hasStapleFood": true
@@ -440,16 +550,22 @@
       "name": "ふわっと香る炭火　旨だれ焼鳥つくね重",
       "price": 660,
       "description": "七味唐辛子小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
-      "hasStapleFood": false
+      "hasStapleFood": true
     },
     {
       "itemId": "1955806964787254336",
-      "name": "ふわっと香る炭火　旨だれ焼鳥つくね重 (ライス：大盛)",
-      "price": 750,
+      "name": "ふわっと香る炭火　旨だれ焼鳥つくね重",
+      "price": 660,
       "description": "七味唐辛子小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -465,16 +581,22 @@
       "name": "ふわっと香る炭火　W旨だれ焼鳥つくね重(肉２倍)",
       "price": 1050,
       "description": "七味唐辛子小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
-      "hasStapleFood": false
+      "hasStapleFood": true
     },
     {
       "itemId": "1955807755301932480",
-      "name": "ふわっと香る炭火　W旨だれ焼鳥つくね重(肉２倍) (ライス：大盛)",
-      "price": 1140,
+      "name": "ふわっと香る炭火　W旨だれ焼鳥つくね重(肉２倍)",
+      "price": 1050,
       "description": "七味唐辛子小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -490,16 +612,22 @@
       "name": "とろ～り絡まる　温玉付き焼鳥つくね重",
       "price": 730,
       "description": "七味唐辛子小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
-      "hasStapleFood": false
+      "hasStapleFood": true
     },
     {
       "itemId": "1955808499923489856",
-      "name": "とろ～り絡まる　温玉付き焼鳥つくね重 (ライス：大盛)",
-      "price": 820,
+      "name": "とろ～り絡まる　温玉付き焼鳥つくね重",
+      "price": 730,
       "description": "七味唐辛子小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -515,16 +643,22 @@
       "name": "とろ～り絡まる　温玉付きW焼鳥つくね重(肉２倍)",
       "price": 1120,
       "description": "七味唐辛子小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
-      "hasStapleFood": false
+      "hasStapleFood": true
     },
     {
       "itemId": "1955809286218422336",
-      "name": "とろ～り絡まる　温玉付きW焼鳥つくね重(肉２倍) (ライス：大盛)",
-      "price": 1210,
+      "name": "とろ～り絡まる　温玉付きW焼鳥つくね重(肉２倍)",
+      "price": 1120,
       "description": "七味唐辛子小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -541,22 +675,22 @@
       "price": 680,
       "description": "天丼のたれ小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
-        "ALLERGEN_TYPE_EGG",
         "ALLERGEN_TYPE_SHRIMP",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
       ],
       "isAlcohol": false,
-      "hasStapleFood": false
+      "hasStapleFood": true
     },
     {
       "itemId": "1945294041074990336",
-      "name": "エビ２尾/イカ/カレイ/野菜３種　海鮮天丼 (ライス：大盛)",
-      "price": 770,
+      "name": "エビ２尾/イカ/カレイ/野菜３種　海鮮天丼",
+      "price": 680,
       "description": "天丼のたれ小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
-        "ALLERGEN_TYPE_EGG",
         "ALLERGEN_TYPE_SHRIMP",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -574,22 +708,22 @@
       "price": 730,
       "description": "七味小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
-        "ALLERGEN_TYPE_EGG",
         "ALLERGEN_TYPE_SHRIMP",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
       ],
       "isAlcohol": false,
-      "hasStapleFood": false
+      "hasStapleFood": true
     },
     {
       "itemId": "1945294569412324864",
-      "name": "エビ２尾/イカ/カレイ/野菜３種　海鮮天とじ丼 (ライス：大盛)",
-      "price": 820,
+      "name": "エビ２尾/イカ/カレイ/野菜３種　海鮮天とじ丼",
+      "price": 730,
       "description": "七味小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
-        "ALLERGEN_TYPE_EGG",
         "ALLERGEN_TYPE_SHRIMP",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -607,22 +741,22 @@
       "price": 740,
       "description": "天丼のたれ小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
-        "ALLERGEN_TYPE_EGG",
         "ALLERGEN_TYPE_SHRIMP",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
       ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
     {
       "itemId": "1945295189395094592",
-      "name": "エビ２尾/イカ/カレイ/野菜３種　海鮮天ぷら弁当 (おかずのみ)",
-      "price": 640,
+      "name": "エビ２尾/イカ/カレイ/野菜３種　海鮮天ぷら弁当",
+      "price": 740,
       "description": "天丼のたれ小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
-        "ALLERGEN_TYPE_EGG",
         "ALLERGEN_TYPE_SHRIMP",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -636,13 +770,13 @@
     },
     {
       "itemId": "1945295189395094592",
-      "name": "エビ２尾/イカ/カレイ/野菜３種　海鮮天ぷら弁当 (ライス：大盛)",
-      "price": 830,
+      "name": "エビ２尾/イカ/カレイ/野菜３種　海鮮天ぷら弁当",
+      "price": 740,
       "description": "天丼のたれ小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
-        "ALLERGEN_TYPE_EGG",
         "ALLERGEN_TYPE_SHRIMP",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -656,13 +790,13 @@
     },
     {
       "itemId": "1945295189395094592",
-      "name": "エビ２尾/イカ/カレイ/野菜３種　海鮮天ぷら弁当 (ライス：小盛)",
-      "price": 710,
+      "name": "エビ２尾/イカ/カレイ/野菜３種　海鮮天ぷら弁当",
+      "price": 740,
       "description": "天丼のたれ小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
-        "ALLERGEN_TYPE_EGG",
         "ALLERGEN_TYPE_SHRIMP",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -676,13 +810,13 @@
     },
     {
       "itemId": "1945295189395094592",
-      "name": "エビ２尾/イカ/カレイ/野菜３種　海鮮天ぷら弁当 (きのこごはん)",
-      "price": 890,
-      "description": "天丼のたれ小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。\n商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "name": "エビ２尾/イカ/カレイ/野菜３種　海鮮天ぷら弁当",
+      "price": 740,
+      "description": "天丼のたれ小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
-        "ALLERGEN_TYPE_EGG",
         "ALLERGEN_TYPE_SHRIMP",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -700,22 +834,22 @@
       "price": 890,
       "description": "天丼のたれ小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
-        "ALLERGEN_TYPE_EGG",
         "ALLERGEN_TYPE_SHRIMP",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
       ],
       "isAlcohol": false,
-      "hasStapleFood": false
+      "hasStapleFood": true
     },
     {
       "itemId": "1945295777646869760",
-      "name": "エビ５尾/イカ/カレイ/野菜３種　上・海鮮天丼 (ライス：大盛)",
-      "price": 980,
+      "name": "エビ５尾/イカ/カレイ/野菜３種　上・海鮮天丼",
+      "price": 890,
       "description": "天丼のたれ小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
-        "ALLERGEN_TYPE_EGG",
         "ALLERGEN_TYPE_SHRIMP",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -733,9 +867,9 @@
       "price": 620,
       "description": "天丼のたれ小袋\n※小盛・大盛変更はできません\n※店舗により容器が異なる場合がございます。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
-        "ALLERGEN_TYPE_EGG",
         "ALLERGEN_TYPE_SHRIMP",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
       ],
       "isAlcohol": false,
       "hasStapleFood": true
@@ -745,16 +879,22 @@
       "name": "６種のスパイスと牛の旨味　夏のよくばり牛カレー",
       "price": 670,
       "description": "カレースパイス小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_MILK"
+      ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
     {
       "itemId": "1945289189896846592",
-      "name": "６種のスパイスと牛の旨味　夏のよくばり牛カレー (ライス：大盛)",
-      "price": 760,
+      "name": "６種のスパイスと牛の旨味　夏のよくばり牛カレー",
+      "price": 670,
       "description": "カレースパイス小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_MILK"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -771,22 +911,22 @@
       "price": 850,
       "description": "カレースパイス小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
     {
       "itemId": "1945289876156284160",
-      "name": "６種のスパイスと牛の旨味　夏のよくばり牛カレー(から揚) (ライス：大盛)",
-      "price": 940,
+      "name": "６種のスパイスと牛の旨味　夏のよくばり牛カレー(から揚)",
+      "price": 850,
       "description": "カレースパイス小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -803,16 +943,22 @@
       "name": "６種のスパイスと牛の旨味　夏のよくばり牛カレー(ロースカツ)",
       "price": 890,
       "description": "カレースパイス小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_MILK"
+      ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
     {
       "itemId": "1945290429934435584",
-      "name": "６種のスパイスと牛の旨味　夏のよくばり牛カレー(ロースカツ) (ライス：大盛)",
-      "price": 980,
+      "name": "６種のスパイスと牛の旨味　夏のよくばり牛カレー(ロースカツ)",
+      "price": 890,
       "description": "カレースパイス小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_MILK"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -828,16 +974,22 @@
       "name": "６種のスパイスと牛の旨味　夏のよくばり牛カレー(チーズ)",
       "price": 760,
       "description": "カレースパイス小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_MILK"
+      ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
     {
       "itemId": "1945290947981311232",
-      "name": "６種のスパイスと牛の旨味　夏のよくばり牛カレー(チーズ) (ライス：大盛)",
-      "price": 850,
+      "name": "６種のスパイスと牛の旨味　夏のよくばり牛カレー(チーズ)",
+      "price": 760,
       "description": "カレースパイス小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_MILK"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -853,9 +1005,12 @@
       "name": "６種のスパイスと牛の旨味　夏のよくばり牛カレールーのみ",
       "price": 570,
       "description": "カレースパイス小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_MILK"
+      ],
       "isAlcohol": false,
-      "hasStapleFood": false
+      "hasStapleFood": true
     },
     {
       "itemId": "1889584058425371840",
@@ -863,22 +1018,22 @@
       "price": 890,
       "description": "ステーキソース小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
     {
       "itemId": "1889584058425371840",
-      "name": "肉オンザライス　ビーフカットステーキ重 (ライス：大盛)",
-      "price": 980,
+      "name": "肉オンザライス　ビーフカットステーキ重",
+      "price": 890,
       "description": "ステーキソース小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -896,22 +1051,55 @@
       "price": 1500,
       "description": "ステーキソース小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
     {
       "itemId": "1889584821184864448",
-      "name": "肉オンザライス　Wビーフカットステーキ重(肉２倍) (ライス：大盛)",
-      "price": 1590,
+      "name": "肉オンザライス　Wビーフカットステーキ重(肉２倍)",
+      "price": 1500,
       "description": "ステーキソース小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
+      ],
+      "isAlcohol": false,
+      "customizeItems": [
+        {
+          "itemId": "1915269016078759936",
+          "name": "ライス：大盛",
+          "price": 90
+        }
+      ],
+      "hasStapleFood": true
+    },
+    {
+      "itemId": "1889585797054769472",
+      "name": "野菜をプラス！　サラダ＆ビーフカットステーキコンボ",
+      "price": 980,
+      "description": "ステーキソース小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG",
+        "ALLERGEN_TYPE_MILK"
+      ],
+      "isAlcohol": false,
+      "hasStapleFood": true
+    },
+    {
+      "itemId": "1889585797054769472",
+      "name": "野菜をプラス！　サラダ＆ビーフカットステーキコンボ",
+      "price": 980,
+      "description": "ステーキソース小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG",
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -929,22 +1117,22 @@
       "price": 960,
       "description": "ステーキソース小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
     {
       "itemId": "1889586806839730368",
-      "name": "贅沢おかず　ビーフカットステーキ弁当 (おかずのみ)",
-      "price": 860,
+      "name": "贅沢おかず　ビーフカットステーキ弁当",
+      "price": 960,
       "description": "ステーキソース小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -958,13 +1146,13 @@
     },
     {
       "itemId": "1889586806839730368",
-      "name": "贅沢おかず　ビーフカットステーキ弁当 (ライス：大盛)",
-      "price": 1050,
+      "name": "贅沢おかず　ビーフカットステーキ弁当",
+      "price": 960,
       "description": "ステーキソース小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -978,13 +1166,13 @@
     },
     {
       "itemId": "1889586806839730368",
-      "name": "贅沢おかず　ビーフカットステーキ弁当 (ライス：小盛)",
-      "price": 930,
+      "name": "贅沢おかず　ビーフカットステーキ弁当",
+      "price": 960,
       "description": "ステーキソース小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -998,13 +1186,13 @@
     },
     {
       "itemId": "1889586806839730368",
-      "name": "贅沢おかず　ビーフカットステーキ弁当 (きのこごはん)",
-      "price": 1110,
-      "description": "ステーキソース小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。\n商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "name": "贅沢おかず　ビーフカットステーキ弁当",
+      "price": 960,
+      "description": "ステーキソース小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -1022,9 +1210,9 @@
       "price": 990,
       "description": "レモン果汁小袋2ケ、から揚スパイス小袋2ケ\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "hasStapleFood": false
@@ -1035,31 +1223,9 @@
       "price": 1320,
       "description": "レモン果汁小袋4ケ、から揚スパイス小袋4ケ\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
-      ],
-      "isAlcohol": false,
-      "hasStapleFood": false
-    },
-    {
-      "itemId": "1934794714991766016",
-      "name": "ほっとチキン　バーベキュー味",
-      "price": 260,
-      "description": "バーベキュー風パウダー小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_WHEAT"],
-      "isAlcohol": false,
-      "hasStapleFood": false
-    },
-    {
-      "itemId": "1934795274395463744",
-      "name": "プラスから揚(２コ)　バーベキュー味",
-      "price": 240,
-      "description": "バーベキュー風パウダー小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": [
-        "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "hasStapleFood": false
@@ -1068,17 +1234,176 @@
       "itemId": "1899726089604563008",
       "name": "讃岐うどん麺使用　ミニ冷やしわかめうどん",
       "price": 150,
-      "description": "冷やしうどんつゆ小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_WHEAT"],
+      "description": "冷やしうどんつゆ小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。\n",
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT"
+      ],
+      "isAlcohol": false,
+      "hasStapleFood": true
+    },
+    {
+      "itemId": "1915270442255544448",
+      "name": "ドレッシング付き　たっぷりグリーンサラダ",
+      "price": 170,
+      "description": "※ドレッシングは「ごま」か「和風」が選べます。\n※アレルギーは「ごま」を選んだ場合の表記です。\n※店舗によってお取り扱いが無い場合があります。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "hasStapleFood": false
     },
     {
-      "itemId": "1945296728231345344",
-      "name": "きのこごはん　単品",
-      "price": 300,
+      "itemId": "1915270595840618688",
+      "name": "ドレッシング付き　７品目のミックスサラダ",
+      "price": 190,
+      "description": "※ドレッシングは「ごま」か「和風」が選べます。\n※アレルギーは「ごま」を選んだ場合の表記です。\n※店舗によってお取り扱いが無い場合があります。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
+      "isAlcohol": false,
+      "hasStapleFood": false
+    },
+    {
+      "itemId": "1899639385681979456",
+      "name": "のり弁当",
+      "price": 460,
       "description": "※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
+      "isAlcohol": false,
+      "hasStapleFood": true
+    },
+    {
+      "itemId": "1899639385681979456",
+      "name": "のり弁当",
+      "price": 460,
+      "description": "※商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
+      "isAlcohol": false,
+      "customizeItems": [
+        {
+          "itemId": "1915269016078759936",
+          "name": "ライス：大盛",
+          "price": 90
+        }
+      ],
+      "hasStapleFood": true
+    },
+    {
+      "itemId": "1899639906388225344",
+      "name": "特のりタル弁当",
+      "price": 590,
+      "description": "タルタルソース小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG",
+        "ALLERGEN_TYPE_MILK"
+      ],
+      "isAlcohol": false,
+      "hasStapleFood": true
+    },
+    {
+      "itemId": "1899639906388225344",
+      "name": "特のりタル弁当",
+      "price": 590,
+      "description": "タルタルソース小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG",
+        "ALLERGEN_TYPE_MILK"
+      ],
+      "isAlcohol": false,
+      "customizeItems": [
+        {
+          "itemId": "1915269016078759936",
+          "name": "ライス：大盛",
+          "price": 90
+        }
+      ],
+      "hasStapleFood": true
+    },
+    {
+      "itemId": "1899640884944514368",
+      "name": "全部のせのりタル弁当",
+      "price": 650,
+      "description": "タルタルソース小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG",
+        "ALLERGEN_TYPE_MILK"
+      ],
+      "isAlcohol": false,
+      "hasStapleFood": true
+    },
+    {
+      "itemId": "1899640884944514368",
+      "name": "全部のせのりタル弁当",
+      "price": 650,
+      "description": "タルタルソース小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG",
+        "ALLERGEN_TYPE_MILK"
+      ],
+      "isAlcohol": false,
+      "customizeItems": [
+        {
+          "itemId": "1915269016078759936",
+          "name": "ライス：大盛",
+          "price": 90
+        }
+      ],
+      "hasStapleFood": true
+    },
+    {
+      "itemId": "1945302118813080128",
+      "name": "BIGのりタル弁当(ナポリタン)",
+      "price": 740,
+      "description": "タルタルソース小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG",
+        "ALLERGEN_TYPE_MILK"
+      ],
+      "isAlcohol": false,
+      "hasStapleFood": true
+    },
+    {
+      "itemId": "1945302118813080128",
+      "name": "BIGのりタル弁当(ナポリタン)",
+      "price": 740,
+      "description": "タルタルソース小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG",
+        "ALLERGEN_TYPE_MILK"
+      ],
+      "isAlcohol": false,
+      "customizeItems": [
+        {
+          "itemId": "1915269016078759936",
+          "name": "ライス：大盛",
+          "price": 90
+        }
+      ],
+      "hasStapleFood": true
+    },
+    {
+      "itemId": "1899642967160520704",
+      "name": "しゃけ弁当",
+      "price": 640,
+      "description": "減塩醤油小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
@@ -1087,16 +1412,10 @@
       "name": "しゃけ弁当",
       "price": 640,
       "description": "減塩醤油小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
-      "isAlcohol": false,
-      "hasStapleFood": true
-    },
-    {
-      "itemId": "1899642967160520704",
-      "name": "しゃけ弁当 (ライス：大盛)",
-      "price": 730,
-      "description": "減塩醤油小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -1113,9 +1432,9 @@
       "price": 560,
       "description": "※小盛・大盛変更はできません\n※店舗により容器が異なる場合がございます。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "hasStapleFood": true
@@ -1125,7 +1444,10 @@
       "name": "～もち麦ごはんのミニ弁当～　もちミニ　しゃけ弁当",
       "price": 590,
       "description": "減塩醤油小袋\n※小盛・大盛変更はできません\n※店舗により容器が異なる場合がございます。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
@@ -1133,24 +1455,24 @@
       "itemId": "1915262872241467520",
       "name": "バラエティ豊かなおかず　幕の内弁当",
       "price": 690,
-      "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※各日数量限定商品です。\n※全６種の内、いずれかの商品を販売しております。販売商品については店舗にご確認ください。\n※種類をお選びいただくことはできません。ご了承ください。\n※事前に調理し粗熱をとったおかずを盛り込んでおります。\n※商品情報につきましては、ホームページをご参照ください。",
+      "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※各日数量限定商品です。\n※全６種の内、いずれかの商品を販売しております。販売商品については店舗にご確認ください。\n※種類をお選びいただくことはできません。ご了承ください。\n※事前に調理し粗熱をとったおかずを盛り込んでおります。\n※商品情報につきましては、ホームページをご参照ください。\n",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
     {
       "itemId": "1915262872241467520",
-      "name": "バラエティ豊かなおかず　幕の内弁当 (ライス：大盛)",
-      "price": 780,
-      "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※各日数量限定商品です。\n※全６種の内、いずれかの商品を販売しております。販売商品については店舗にご確認ください。\n※種類をお選びいただくことはできません。ご了承ください。\n※事前に調理し粗熱をとったおかずを盛り込んでおります。\n※商品情報につきましては、ホームページをご参照ください。",
+      "name": "バラエティ豊かなおかず　幕の内弁当",
+      "price": 690,
+      "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※各日数量限定商品です。\n※全６種の内、いずれかの商品を販売しております。販売商品については店舗にご確認ください。\n※種類をお選びいただくことはできません。ご了承ください。\n※事前に調理し粗熱をとったおかずを盛り込んでおります。\n※商品情報につきましては、ホームページをご参照ください。\n",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -1164,13 +1486,13 @@
     },
     {
       "itemId": "1915262872241467520",
-      "name": "バラエティ豊かなおかず　幕の内弁当 (きのこごはん)",
-      "price": 840,
-      "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※各日数量限定商品です。\n※全６種の内、いずれかの商品を販売しております。販売商品については店舗にご確認ください。\n※種類をお選びいただくことはできません。ご了承ください。\n※事前に調理し粗熱をとったおかずを盛り込んでおります。\n※商品情報につきましては、ホームページをご参照ください。\n\n商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "name": "バラエティ豊かなおかず　幕の内弁当",
+      "price": 690,
+      "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※各日数量限定商品です。\n※全６種の内、いずれかの商品を販売しております。販売商品については店舗にご確認ください。\n※種類をお選びいただくことはできません。ご了承ください。\n※事前に調理し粗熱をとったおかずを盛り込んでおります。\n※商品情報につきましては、ホームページをご参照ください。\n",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -1188,24 +1510,24 @@
       "price": 970,
       "description": "減塩醤油小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
-        "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
         "ALLERGEN_TYPE_SHRIMP",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG",
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
     {
       "itemId": "1915263688062955648",
-      "name": "特撰幕の内弁当 (ライス：大盛)",
-      "price": 1060,
+      "name": "特撰幕の内弁当",
+      "price": 970,
       "description": "減塩醤油小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
-        "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
         "ALLERGEN_TYPE_SHRIMP",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG",
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -1219,14 +1541,14 @@
     },
     {
       "itemId": "1915263688062955648",
-      "name": "特撰幕の内弁当 (きのこごはん)",
-      "price": 1120,
-      "description": "減塩醤油小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。\n商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "name": "特撰幕の内弁当",
+      "price": 970,
+      "description": "減塩醤油小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
-        "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
         "ALLERGEN_TYPE_SHRIMP",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG",
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -1244,24 +1566,24 @@
       "price": 690,
       "description": "ソース小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
-        "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
         "ALLERGEN_TYPE_SHRIMP",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG",
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
     {
       "itemId": "1915263892197781696",
-      "name": "洋風バラエティ弁当 (ライス：大盛)",
-      "price": 780,
+      "name": "洋風バラエティ弁当",
+      "price": 690,
       "description": "ソース小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
-        "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
         "ALLERGEN_TYPE_SHRIMP",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG",
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -1275,14 +1597,14 @@
     },
     {
       "itemId": "1915263892197781696",
-      "name": "洋風バラエティ弁当 (きのこごはん)",
-      "price": 840,
-      "description": "ソース小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。\n商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "name": "洋風バラエティ弁当",
+      "price": 690,
+      "description": "ソース小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
-        "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
         "ALLERGEN_TYPE_SHRIMP",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG",
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -1300,22 +1622,22 @@
       "price": 570,
       "description": "レモン果汁小袋、から揚スパイス小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
     {
       "itemId": "1911630229568663616",
-      "name": "４コ入り　から揚弁当 (おかずのみ)",
-      "price": 470,
+      "name": "４コ入り　から揚弁当",
+      "price": 570,
       "description": "レモン果汁小袋、から揚スパイス小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -1329,13 +1651,13 @@
     },
     {
       "itemId": "1911630229568663616",
-      "name": "４コ入り　から揚弁当 (ライス：大盛)",
-      "price": 660,
+      "name": "４コ入り　から揚弁当",
+      "price": 570,
       "description": "レモン果汁小袋、から揚スパイス小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -1349,13 +1671,13 @@
     },
     {
       "itemId": "1911630229568663616",
-      "name": "４コ入り　から揚弁当 (ライス：小盛)",
-      "price": 540,
+      "name": "４コ入り　から揚弁当",
+      "price": 570,
       "description": "レモン果汁小袋、から揚スパイス小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -1369,13 +1691,13 @@
     },
     {
       "itemId": "1911630229568663616",
-      "name": "４コ入り　から揚弁当 (きのこごはん)",
-      "price": 720,
-      "description": "レモン果汁小袋、から揚スパイス小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。\n商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "name": "４コ入り　から揚弁当",
+      "price": 570,
+      "description": "レモン果汁小袋、から揚スパイス小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -1393,22 +1715,22 @@
       "price": 720,
       "description": "レモン果汁小袋、から揚スパイス小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
     {
       "itemId": "1911630590640996416",
-      "name": "６コ入り　から揚弁当 (おかずのみ)",
-      "price": 620,
+      "name": "６コ入り　から揚弁当",
+      "price": 720,
       "description": "レモン果汁小袋、から揚スパイス小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -1422,13 +1744,13 @@
     },
     {
       "itemId": "1911630590640996416",
-      "name": "６コ入り　から揚弁当 (ライス：大盛)",
-      "price": 810,
+      "name": "６コ入り　から揚弁当",
+      "price": 720,
       "description": "レモン果汁小袋、から揚スパイス小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -1442,13 +1764,13 @@
     },
     {
       "itemId": "1911630590640996416",
-      "name": "６コ入り　から揚弁当 (ライス：小盛)",
-      "price": 690,
+      "name": "６コ入り　から揚弁当",
+      "price": 720,
       "description": "レモン果汁小袋、から揚スパイス小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -1462,13 +1784,13 @@
     },
     {
       "itemId": "1911630590640996416",
-      "name": "６コ入り　から揚弁当 (きのこごはん)",
-      "price": 870,
-      "description": "レモン果汁小袋、から揚スパイス小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。\n商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "name": "６コ入り　から揚弁当",
+      "price": 720,
+      "description": "レモン果汁小袋、から揚スパイス小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -1486,22 +1808,22 @@
       "price": 670,
       "description": "甘酢ソース小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
     {
       "itemId": "1915257362062667904",
-      "name": "チキン南蛮弁当 (おかずのみ)",
-      "price": 570,
+      "name": "チキン南蛮弁当",
+      "price": 670,
       "description": "甘酢ソース小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -1515,13 +1837,13 @@
     },
     {
       "itemId": "1915257362062667904",
-      "name": "チキン南蛮弁当 (ライス：大盛)",
-      "price": 760,
+      "name": "チキン南蛮弁当",
+      "price": 670,
       "description": "甘酢ソース小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -1535,13 +1857,13 @@
     },
     {
       "itemId": "1915257362062667904",
-      "name": "チキン南蛮弁当 (ライス：小盛)",
-      "price": 640,
+      "name": "チキン南蛮弁当",
+      "price": 670,
       "description": "甘酢ソース小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -1555,13 +1877,13 @@
     },
     {
       "itemId": "1915257362062667904",
-      "name": "チキン南蛮弁当 (きのこごはん)",
-      "price": 820,
-      "description": "甘酢ソース小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。\n商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "name": "チキン南蛮弁当",
+      "price": 670,
+      "description": "甘酢ソース小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -1579,22 +1901,22 @@
       "price": 670,
       "description": "甘酢ソース小袋、南蛮ソース小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
     {
       "itemId": "1915258655850084352",
-      "name": "九州チキン南蛮弁当 (おかずのみ)",
-      "price": 570,
+      "name": "九州チキン南蛮弁当",
+      "price": 670,
       "description": "甘酢ソース小袋、南蛮ソース小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -1608,13 +1930,13 @@
     },
     {
       "itemId": "1915258655850084352",
-      "name": "九州チキン南蛮弁当 (ライス：大盛)",
-      "price": 760,
+      "name": "九州チキン南蛮弁当",
+      "price": 670,
       "description": "甘酢ソース小袋、南蛮ソース小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -1628,13 +1950,13 @@
     },
     {
       "itemId": "1915258655850084352",
-      "name": "九州チキン南蛮弁当 (ライス：小盛)",
-      "price": 640,
+      "name": "九州チキン南蛮弁当",
+      "price": 670,
       "description": "甘酢ソース小袋、南蛮ソース小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -1648,13 +1970,101 @@
     },
     {
       "itemId": "1915258655850084352",
-      "name": "九州チキン南蛮弁当 (きのこごはん)",
-      "price": 820,
-      "description": "甘酢ソース小袋、南蛮ソース小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。\n商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "name": "九州チキン南蛮弁当",
+      "price": 670,
+      "description": "甘酢ソース小袋、南蛮ソース小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
+      ],
+      "isAlcohol": false,
+      "customizeItems": [
+        {
+          "itemId": "1945300701129980992",
+          "name": "きのこごはん",
+          "price": 150
+        }
+      ],
+      "hasStapleFood": true
+    },
+    {
+      "itemId": "1915258918153646208",
+      "name": "おろしチキン竜田弁当",
+      "price": 670,
+      "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
+      "isAlcohol": false,
+      "hasStapleFood": true
+    },
+    {
+      "itemId": "1915258918153646208",
+      "name": "おろしチキン竜田弁当",
+      "price": 670,
+      "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
+      "isAlcohol": false,
+      "customizeItems": [
+        {
+          "itemId": "1701442935384269120",
+          "name": "おかずのみ",
+          "price": -100
+        }
+      ],
+      "hasStapleFood": false
+    },
+    {
+      "itemId": "1915258918153646208",
+      "name": "おろしチキン竜田弁当",
+      "price": 670,
+      "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
+      "isAlcohol": false,
+      "customizeItems": [
+        {
+          "itemId": "1915269016078759936",
+          "name": "ライス：大盛",
+          "price": 90
+        }
+      ],
+      "hasStapleFood": true
+    },
+    {
+      "itemId": "1915258918153646208",
+      "name": "おろしチキン竜田弁当",
+      "price": 670,
+      "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
+      "isAlcohol": false,
+      "customizeItems": [
+        {
+          "itemId": "1915269235709294592",
+          "name": "ライス：小盛",
+          "price": -30
+        }
+      ],
+      "hasStapleFood": true
+    },
+    {
+      "itemId": "1915258918153646208",
+      "name": "おろしチキン竜田弁当",
+      "price": 670,
+      "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -1671,16 +2081,22 @@
       "name": "ロースとんかつ弁当",
       "price": 680,
       "description": "とんかつソース小袋、和がらし小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
     {
       "itemId": "1915259082460777664",
-      "name": "ロースとんかつ弁当 (おかずのみ)",
-      "price": 580,
+      "name": "ロースとんかつ弁当",
+      "price": 680,
       "description": "とんかつソース小袋、和がらし小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -1693,10 +2109,13 @@
     },
     {
       "itemId": "1915259082460777664",
-      "name": "ロースとんかつ弁当 (ライス：大盛)",
-      "price": 770,
+      "name": "ロースとんかつ弁当",
+      "price": 680,
       "description": "とんかつソース小袋、和がらし小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -1709,10 +2128,13 @@
     },
     {
       "itemId": "1915259082460777664",
-      "name": "ロースとんかつ弁当 (ライス：小盛)",
-      "price": 650,
+      "name": "ロースとんかつ弁当",
+      "price": 680,
       "description": "とんかつソース小袋、和がらし小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -1725,10 +2147,13 @@
     },
     {
       "itemId": "1915259082460777664",
-      "name": "ロースとんかつ弁当 (きのこごはん)",
-      "price": 830,
-      "description": "とんかつソース小袋、和がらし小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。\n商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "name": "ロースとんかつ弁当",
+      "price": 680,
+      "description": "とんかつソース小袋、和がらし小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -1744,16 +2169,22 @@
       "name": "しょうが焼き弁当",
       "price": 670,
       "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
     {
       "itemId": "1915259592599973952",
-      "name": "しょうが焼き弁当 (おかずのみ)",
-      "price": 570,
+      "name": "しょうが焼き弁当",
+      "price": 670,
       "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -1766,10 +2197,13 @@
     },
     {
       "itemId": "1915259592599973952",
-      "name": "しょうが焼き弁当 (ライス：大盛)",
-      "price": 760,
+      "name": "しょうが焼き弁当",
+      "price": 670,
       "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -1782,10 +2216,13 @@
     },
     {
       "itemId": "1915259592599973952",
-      "name": "しょうが焼き弁当 (ライス：小盛)",
-      "price": 640,
+      "name": "しょうが焼き弁当",
+      "price": 670,
       "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -1798,10 +2235,13 @@
     },
     {
       "itemId": "1915259592599973952",
-      "name": "しょうが焼き弁当 (きのこごはん)",
-      "price": 820,
-      "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。\n商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "name": "しょうが焼き弁当",
+      "price": 670,
+      "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -1817,16 +2257,22 @@
       "name": "Wしょうが焼き弁当(肉２倍)",
       "price": 990,
       "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
     {
       "itemId": "1915259766933975168",
-      "name": "Wしょうが焼き弁当(肉２倍) (おかずのみ)",
-      "price": 890,
+      "name": "Wしょうが焼き弁当(肉２倍)",
+      "price": 990,
       "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -1839,10 +2285,13 @@
     },
     {
       "itemId": "1915259766933975168",
-      "name": "Wしょうが焼き弁当(肉２倍) (ライス：大盛)",
-      "price": 1080,
+      "name": "Wしょうが焼き弁当(肉２倍)",
+      "price": 990,
       "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -1855,10 +2304,13 @@
     },
     {
       "itemId": "1915259766933975168",
-      "name": "Wしょうが焼き弁当(肉２倍) (ライス：小盛)",
-      "price": 960,
+      "name": "Wしょうが焼き弁当(肉２倍)",
+      "price": 990,
       "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -1871,10 +2323,13 @@
     },
     {
       "itemId": "1915259766933975168",
-      "name": "Wしょうが焼き弁当(肉２倍) (きのこごはん)",
-      "price": 1140,
-      "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。\n商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "name": "Wしょうが焼き弁当(肉２倍)",
+      "price": 990,
+      "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -1891,22 +2346,22 @@
       "price": 920,
       "description": "から揚スパイス小袋、レモン果汁小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※1食分のしょうが焼き入りです。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
     {
       "itemId": "1911630830432072192",
-      "name": "しょうが焼き＆から揚弁当 (おかずのみ)",
-      "price": 820,
+      "name": "しょうが焼き＆から揚弁当",
+      "price": 920,
       "description": "から揚スパイス小袋、レモン果汁小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※1食分のしょうが焼き入りです。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -1920,13 +2375,13 @@
     },
     {
       "itemId": "1911630830432072192",
-      "name": "しょうが焼き＆から揚弁当 (ライス：大盛)",
-      "price": 1010,
+      "name": "しょうが焼き＆から揚弁当",
+      "price": 920,
       "description": "から揚スパイス小袋、レモン果汁小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※1食分のしょうが焼き入りです。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -1940,13 +2395,13 @@
     },
     {
       "itemId": "1911630830432072192",
-      "name": "しょうが焼き＆から揚弁当 (ライス：小盛)",
-      "price": 890,
+      "name": "しょうが焼き＆から揚弁当",
+      "price": 920,
       "description": "から揚スパイス小袋、レモン果汁小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※1食分のしょうが焼き入りです。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -1960,13 +2415,13 @@
     },
     {
       "itemId": "1911630830432072192",
-      "name": "しょうが焼き＆から揚弁当 (きのこごはん)",
-      "price": 1070,
-      "description": "から揚スパイス小袋、レモン果汁小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※1食分のしょうが焼き入りです。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。\n商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "name": "しょうが焼き＆から揚弁当",
+      "price": 920,
+      "description": "から揚スパイス小袋、レモン果汁小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※1食分のしょうが焼き入りです。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -1983,16 +2438,22 @@
       "name": "牛焼肉弁当",
       "price": 720,
       "description": "オリジナル旨だれ小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※牛焼肉は、形を整えるための成形・加工を行っております。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
     {
       "itemId": "1915259999424245888",
-      "name": "牛焼肉弁当 (おかずのみ)",
-      "price": 620,
+      "name": "牛焼肉弁当",
+      "price": 720,
       "description": "オリジナル旨だれ小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※牛焼肉は、形を整えるための成形・加工を行っております。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -2005,10 +2466,13 @@
     },
     {
       "itemId": "1915259999424245888",
-      "name": "牛焼肉弁当 (ライス：大盛)",
-      "price": 810,
+      "name": "牛焼肉弁当",
+      "price": 720,
       "description": "オリジナル旨だれ小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※牛焼肉は、形を整えるための成形・加工を行っております。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -2021,10 +2485,13 @@
     },
     {
       "itemId": "1915259999424245888",
-      "name": "牛焼肉弁当 (ライス：小盛)",
-      "price": 690,
+      "name": "牛焼肉弁当",
+      "price": 720,
       "description": "オリジナル旨だれ小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※牛焼肉は、形を整えるための成形・加工を行っております。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -2037,10 +2504,13 @@
     },
     {
       "itemId": "1915259999424245888",
-      "name": "牛焼肉弁当 (きのこごはん)",
-      "price": 870,
-      "description": "オリジナル旨だれ小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※牛焼肉は、形を整えるための成形・加工を行っております。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。\n商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "name": "牛焼肉弁当",
+      "price": 720,
+      "description": "オリジナル旨だれ小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※牛焼肉は、形を整えるための成形・加工を行っております。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -2056,16 +2526,22 @@
       "name": "W牛焼肉弁当(肉２倍)",
       "price": 1070,
       "description": "オリジナル旨だれ小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※牛焼肉は、形を整えるための成形・加工を行っております。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
     {
       "itemId": "1915260200373350528",
-      "name": "W牛焼肉弁当(肉２倍) (おかずのみ)",
-      "price": 970,
+      "name": "W牛焼肉弁当(肉２倍)",
+      "price": 1070,
       "description": "オリジナル旨だれ小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※牛焼肉は、形を整えるための成形・加工を行っております。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -2078,10 +2554,13 @@
     },
     {
       "itemId": "1915260200373350528",
-      "name": "W牛焼肉弁当(肉２倍) (ライス：大盛)",
-      "price": 1160,
+      "name": "W牛焼肉弁当(肉２倍)",
+      "price": 1070,
       "description": "オリジナル旨だれ小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※牛焼肉は、形を整えるための成形・加工を行っております。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -2094,10 +2573,13 @@
     },
     {
       "itemId": "1915260200373350528",
-      "name": "W牛焼肉弁当(肉２倍) (ライス：小盛)",
-      "price": 1040,
+      "name": "W牛焼肉弁当(肉２倍)",
+      "price": 1070,
       "description": "オリジナル旨だれ小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※牛焼肉は、形を整えるための成形・加工を行っております。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -2110,10 +2592,13 @@
     },
     {
       "itemId": "1915260200373350528",
-      "name": "W牛焼肉弁当(肉２倍) (きのこごはん)",
-      "price": 1220,
-      "description": "オリジナル旨だれ小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※牛焼肉は、形を整えるための成形・加工を行っております。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。\n商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "name": "W牛焼肉弁当(肉２倍)",
+      "price": 1070,
+      "description": "オリジナル旨だれ小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※牛焼肉は、形を整えるための成形・加工を行っております。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -2130,22 +2615,22 @@
       "price": 970,
       "description": "から揚スパイス小袋、レモン果汁小袋、オリジナル旨だれ小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※牛焼肉は、形を整えるための成形・加工を行っております。\n※1食分の牛焼肉入りです。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
     {
       "itemId": "1911631094213294336",
-      "name": "牛焼肉＆から揚弁当 (おかずのみ)",
-      "price": 870,
+      "name": "牛焼肉＆から揚弁当",
+      "price": 970,
       "description": "から揚スパイス小袋、レモン果汁小袋、オリジナル旨だれ小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※牛焼肉は、形を整えるための成形・加工を行っております。\n※1食分の牛焼肉入りです。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -2159,13 +2644,13 @@
     },
     {
       "itemId": "1911631094213294336",
-      "name": "牛焼肉＆から揚弁当 (ライス：大盛)",
-      "price": 1060,
+      "name": "牛焼肉＆から揚弁当",
+      "price": 970,
       "description": "から揚スパイス小袋、レモン果汁小袋、オリジナル旨だれ小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※牛焼肉は、形を整えるための成形・加工を行っております。\n※1食分の牛焼肉入りです。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -2179,13 +2664,13 @@
     },
     {
       "itemId": "1911631094213294336",
-      "name": "牛焼肉＆から揚弁当 (ライス：小盛)",
-      "price": 940,
+      "name": "牛焼肉＆から揚弁当",
+      "price": 970,
       "description": "から揚スパイス小袋、レモン果汁小袋、オリジナル旨だれ小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※牛焼肉は、形を整えるための成形・加工を行っております。\n※1食分の牛焼肉入りです。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -2199,13 +2684,13 @@
     },
     {
       "itemId": "1911631094213294336",
-      "name": "牛焼肉＆から揚弁当 (きのこごはん)",
-      "price": 1120,
-      "description": "から揚スパイス小袋、レモン果汁小袋、オリジナル旨だれ小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※牛焼肉は、形を整えるための成形・加工を行っております。\n※1食分の牛焼肉入りです。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。\n商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "name": "牛焼肉＆から揚弁当",
+      "price": 970,
+      "description": "から揚スパイス小袋、レモン果汁小袋、オリジナル旨だれ小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※牛焼肉は、形を整えるための成形・加工を行っております。\n※1食分の牛焼肉入りです。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -2223,22 +2708,22 @@
       "price": 720,
       "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
     {
       "itemId": "1915260372530802752",
-      "name": "デミグラスハンバーグ弁当 (おかずのみ)",
-      "price": 620,
+      "name": "デミグラスハンバーグ弁当",
+      "price": 720,
       "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -2252,13 +2737,13 @@
     },
     {
       "itemId": "1915260372530802752",
-      "name": "デミグラスハンバーグ弁当 (ライス：大盛)",
-      "price": 810,
+      "name": "デミグラスハンバーグ弁当",
+      "price": 720,
       "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -2272,13 +2757,13 @@
     },
     {
       "itemId": "1915260372530802752",
-      "name": "デミグラスハンバーグ弁当 (ライス：小盛)",
-      "price": 690,
+      "name": "デミグラスハンバーグ弁当",
+      "price": 720,
       "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -2292,13 +2777,13 @@
     },
     {
       "itemId": "1915260372530802752",
-      "name": "デミグラスハンバーグ弁当 (きのこごはん)",
-      "price": 870,
-      "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。\n商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "name": "デミグラスハンバーグ弁当",
+      "price": 720,
+      "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -2316,22 +2801,22 @@
       "price": 720,
       "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
     {
       "itemId": "1915260549658210432",
-      "name": "和風オニオンソースハンバーグ弁当 (おかずのみ)",
-      "price": 620,
+      "name": "和風オニオンソースハンバーグ弁当",
+      "price": 720,
       "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -2345,13 +2830,13 @@
     },
     {
       "itemId": "1915260549658210432",
-      "name": "和風オニオンソースハンバーグ弁当 (ライス：大盛)",
-      "price": 810,
+      "name": "和風オニオンソースハンバーグ弁当",
+      "price": 720,
       "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -2365,13 +2850,13 @@
     },
     {
       "itemId": "1915260549658210432",
-      "name": "和風オニオンソースハンバーグ弁当 (ライス：小盛)",
-      "price": 690,
+      "name": "和風オニオンソースハンバーグ弁当",
+      "price": 720,
       "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -2385,13 +2870,13 @@
     },
     {
       "itemId": "1915260549658210432",
-      "name": "和風オニオンソースハンバーグ弁当 (きのこごはん)",
-      "price": 870,
-      "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。\n商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "name": "和風オニオンソースハンバーグ弁当",
+      "price": 720,
+      "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -2409,22 +2894,22 @@
       "price": 800,
       "description": "チーズソース小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
     {
       "itemId": "1915260871741059136",
-      "name": "チーズハンバーグ弁当 (おかずのみ)",
-      "price": 700,
+      "name": "チーズハンバーグ弁当",
+      "price": 800,
       "description": "チーズソース小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -2438,13 +2923,13 @@
     },
     {
       "itemId": "1915260871741059136",
-      "name": "チーズハンバーグ弁当 (ライス：大盛)",
-      "price": 890,
+      "name": "チーズハンバーグ弁当",
+      "price": 800,
       "description": "チーズソース小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -2458,13 +2943,13 @@
     },
     {
       "itemId": "1915260871741059136",
-      "name": "チーズハンバーグ弁当 (ライス：小盛)",
-      "price": 770,
+      "name": "チーズハンバーグ弁当",
+      "price": 800,
       "description": "チーズソース小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -2478,13 +2963,13 @@
     },
     {
       "itemId": "1915260871741059136",
-      "name": "チーズハンバーグ弁当 (きのこごはん)",
-      "price": 950,
-      "description": "チーズソース小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。\n商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "name": "チーズハンバーグ弁当",
+      "price": 800,
+      "description": "チーズソース小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -2502,22 +2987,22 @@
       "price": 950,
       "description": "から揚げスパイス小袋、レモン果汁小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
     {
       "itemId": "1911631297226571328",
-      "name": "デミグラスハンバーグ＆から揚弁当 (おかずのみ)",
-      "price": 850,
+      "name": "デミグラスハンバーグ＆から揚弁当",
+      "price": 950,
       "description": "から揚げスパイス小袋、レモン果汁小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -2531,13 +3016,13 @@
     },
     {
       "itemId": "1911631297226571328",
-      "name": "デミグラスハンバーグ＆から揚弁当 (ライス：大盛)",
-      "price": 1040,
+      "name": "デミグラスハンバーグ＆から揚弁当",
+      "price": 950,
       "description": "から揚げスパイス小袋、レモン果汁小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -2551,13 +3036,13 @@
     },
     {
       "itemId": "1911631297226571328",
-      "name": "デミグラスハンバーグ＆から揚弁当 (ライス：小盛)",
-      "price": 920,
+      "name": "デミグラスハンバーグ＆から揚弁当",
+      "price": 950,
       "description": "から揚げスパイス小袋、レモン果汁小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -2571,13 +3056,13 @@
     },
     {
       "itemId": "1911631297226571328",
-      "name": "デミグラスハンバーグ＆から揚弁当 (きのこごはん)",
-      "price": 1100,
-      "description": "から揚げスパイス小袋、レモン果汁小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。\n商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "name": "デミグラスハンバーグ＆から揚弁当",
+      "price": 950,
+      "description": "から揚げスパイス小袋、レモン果汁小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -2595,22 +3080,22 @@
       "price": 950,
       "description": "から揚スパイス小袋、レモン果汁小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
     {
       "itemId": "1911631530144086272",
-      "name": "和風オニオンソースハンバーグ＆から揚弁当 (おかずのみ)",
-      "price": 850,
+      "name": "和風オニオンソースハンバーグ＆から揚弁当",
+      "price": 950,
       "description": "から揚スパイス小袋、レモン果汁小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -2624,13 +3109,13 @@
     },
     {
       "itemId": "1911631530144086272",
-      "name": "和風オニオンソースハンバーグ＆から揚弁当 (ライス：大盛)",
-      "price": 1040,
+      "name": "和風オニオンソースハンバーグ＆から揚弁当",
+      "price": 950,
       "description": "から揚スパイス小袋、レモン果汁小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -2644,13 +3129,13 @@
     },
     {
       "itemId": "1911631530144086272",
-      "name": "和風オニオンソースハンバーグ＆から揚弁当 (ライス：小盛)",
-      "price": 920,
+      "name": "和風オニオンソースハンバーグ＆から揚弁当",
+      "price": 950,
       "description": "から揚スパイス小袋、レモン果汁小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -2664,13 +3149,13 @@
     },
     {
       "itemId": "1911631530144086272",
-      "name": "和風オニオンソースハンバーグ＆から揚弁当 (きのこごはん)",
-      "price": 1100,
-      "description": "から揚スパイス小袋、レモン果汁小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。\n商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "name": "和風オニオンソースハンバーグ＆から揚弁当",
+      "price": 950,
+      "description": "から揚スパイス小袋、レモン果汁小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -2687,16 +3172,22 @@
       "name": "ロースかつとじ弁当",
       "price": 680,
       "description": "七味小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※店舗により容器が異なる場合がございます。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
     {
       "itemId": "1915261117436770304",
-      "name": "ロースかつとじ弁当 (おかずのみ)",
-      "price": 580,
+      "name": "ロースかつとじ弁当",
+      "price": 680,
       "description": "七味小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※店舗により容器が異なる場合がございます。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -2709,10 +3200,13 @@
     },
     {
       "itemId": "1915261117436770304",
-      "name": "ロースかつとじ弁当 (ライス：大盛)",
-      "price": 770,
+      "name": "ロースかつとじ弁当",
+      "price": 680,
       "description": "七味小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※店舗により容器が異なる場合がございます。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -2725,10 +3219,13 @@
     },
     {
       "itemId": "1915261117436770304",
-      "name": "ロースかつとじ弁当 (ライス：小盛)",
-      "price": 650,
+      "name": "ロースかつとじ弁当",
+      "price": 680,
       "description": "七味小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※店舗により容器が異なる場合がございます。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -2741,10 +3238,13 @@
     },
     {
       "itemId": "1915261117436770304",
-      "name": "ロースかつとじ弁当 (きのこごはん)",
-      "price": 830,
-      "description": "七味小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※店舗により容器が異なる場合がございます。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。\n商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "name": "ロースかつとじ弁当",
+      "price": 680,
+      "description": "七味小袋\n※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※店舗により容器が異なる場合がございます。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -2760,16 +3260,20 @@
       "name": "肉野菜炒め弁当",
       "price": 690,
       "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※店舗により容器が異なる場合がございます。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT"
+      ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
     {
       "itemId": "1915261536057669632",
-      "name": "肉野菜炒め弁当 (おかずのみ)",
-      "price": 590,
+      "name": "肉野菜炒め弁当",
+      "price": 690,
       "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※店舗により容器が異なる場合がございます。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -2782,10 +3286,12 @@
     },
     {
       "itemId": "1915261536057669632",
-      "name": "肉野菜炒め弁当 (ライス：大盛)",
-      "price": 780,
+      "name": "肉野菜炒め弁当",
+      "price": 690,
       "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※店舗により容器が異なる場合がございます。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -2798,10 +3304,12 @@
     },
     {
       "itemId": "1915261536057669632",
-      "name": "肉野菜炒め弁当 (ライス：小盛)",
-      "price": 660,
+      "name": "肉野菜炒め弁当",
+      "price": 690,
       "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※店舗により容器が異なる場合がございます。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -2814,10 +3322,12 @@
     },
     {
       "itemId": "1915261536057669632",
-      "name": "肉野菜炒め弁当 (きのこごはん)",
-      "price": 840,
-      "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※店舗により容器が異なる場合がございます。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。\n商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_WHEAT"],
+      "name": "肉野菜炒め弁当",
+      "price": 690,
+      "description": "※+150円で「きのこごはん」に変更可能です。きのこごはんの量は変更できません。\n※店舗により容器が異なる場合がございます。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -2829,27 +3339,53 @@
       "hasStapleFood": true
     },
     {
-      "itemId": "1911631756972046528",
-      "name": "とりめし弁当",
-      "price": 580,
-      "description": "とりめしのたれ小袋、マヨネーズ小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "itemId": "1859407313860582720",
+      "name": "ドラえもんランチ",
+      "price": 520,
+      "description": "※大盛変更はできません\n※一部地域において、ふりかけはごはんにかけてご提供します。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
+      ],
+      "isAlcohol": false,
+      "hasStapleFood": true
+    },
+    {
+      "itemId": "1859407657517117504",
+      "name": "ドラミちゃんランチ",
+      "price": 520,
+      "description": "※大盛変更はできません\n※一部地域において、ふりかけはごはんにかけてご提供します。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG",
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
     {
       "itemId": "1911631756972046528",
-      "name": "とりめし弁当 (ライス：大盛)",
-      "price": 670,
+      "name": "とりめし弁当",
+      "price": 580,
       "description": "とりめしのたれ小袋、マヨネーズ小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
+      ],
+      "isAlcohol": false,
+      "hasStapleFood": true
+    },
+    {
+      "itemId": "1911631756972046528",
+      "name": "とりめし弁当",
+      "price": 580,
+      "description": "とりめしのたれ小袋、マヨネーズ小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG",
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -2867,22 +3403,22 @@
       "price": 570,
       "description": "七味小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
-      "hasStapleFood": false
+      "hasStapleFood": true
     },
     {
       "itemId": "1915264077575385216",
-      "name": "親子丼 (ライス：大盛)",
-      "price": 660,
+      "name": "親子丼",
+      "price": 570,
       "description": "七味小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -2899,16 +3435,22 @@
       "name": "ロースかつ丼",
       "price": 650,
       "description": "七味小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
-      "hasStapleFood": false
+      "hasStapleFood": true
     },
     {
       "itemId": "1915264836702287872",
-      "name": "ロースかつ丼 (ライス：大盛)",
-      "price": 740,
+      "name": "ロースかつ丼",
+      "price": 650,
       "description": "七味小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -2924,16 +3466,22 @@
       "name": "カレー",
       "price": 590,
       "description": "カレースパイス小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_MILK"
+      ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
     {
       "itemId": "1915265253991821504",
-      "name": "カレー (ライス：大盛)",
-      "price": 680,
+      "name": "カレー",
+      "price": 590,
       "description": "カレースパイス小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_MILK"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -2949,16 +3497,22 @@
       "name": "ロースカツカレー",
       "price": 810,
       "description": "カレースパイス小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_MILK"
+      ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
     {
       "itemId": "1915265517161003008",
-      "name": "ロースカツカレー (ライス：大盛)",
-      "price": 900,
+      "name": "ロースカツカレー",
+      "price": 810,
       "description": "カレースパイス小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_MILK"
+      ],
       "isAlcohol": false,
       "customizeItems": [
         {
@@ -2975,22 +3529,22 @@
       "price": 770,
       "description": "カレースパイス小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
     {
       "itemId": "1915265722912764032",
-      "name": "から揚カレー (ライス：大盛)",
-      "price": 860,
+      "name": "から揚カレー",
+      "price": 770,
       "description": "カレースパイス小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "customizeItems": [
@@ -3007,9 +3561,12 @@
       "name": "カレールーのみ",
       "price": 490,
       "description": "カレースパイス小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_MILK"
+      ],
       "isAlcohol": false,
-      "hasStapleFood": false
+      "hasStapleFood": true
     },
     {
       "itemId": "1911628347672539136",
@@ -3026,9 +3583,9 @@
       "price": 650,
       "description": "レモン果汁小袋、から揚スパイス小袋、しお小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "hasStapleFood": false
@@ -3039,35 +3596,9 @@
       "price": 750,
       "description": "レモン果汁小袋2ケ、から揚スパイス小袋2ケ\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
-      ],
-      "isAlcohol": false,
-      "hasStapleFood": false
-    },
-    {
-      "itemId": "1945293425384078400",
-      "name": "12コ入りチキンBOX",
-      "price": 990,
-      "description": "レモン果汁小袋2ケ、から揚スパイス小袋2ケ\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": [
-        "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
-      ],
-      "isAlcohol": false,
-      "hasStapleFood": false
-    },
-    {
-      "itemId": "1965586745106932736",
-      "name": "16コ入りチキンセット(８コ入り×２BOX）",
-      "price": 1320,
-      "description": "レモン果汁小袋4ケ、から揚スパイス小袋4ケ\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": [
-        "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "hasStapleFood": false
@@ -3078,37 +3609,10 @@
       "price": 820,
       "description": "レモン果汁小袋、から揚スパイス小袋2ケ\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
-      "isAlcohol": false,
-      "hasStapleFood": false
-    },
-    {
-      "itemId": "1965641523650966528",
-      "name": "特製豚汁｜ｷｬﾝﾍﾟｰﾝ",
-      "price": 160,
-      "description": "七味小袋\n※期間限定価格　2025/10/1(水)～2026/2/28(土）\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
-      "isAlcohol": false,
-      "hasStapleFood": false
-    },
-    {
-      "itemId": "1965642084580406272",
-      "name": "旨辛特製豚汁｜ｷｬﾝﾍﾟｰﾝ",
-      "price": 190,
-      "description": "うま辛豚汁のたれ小袋\n※期間限定価格　2025/10/1(水)～2026/2/28(土）　\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
-      "isAlcohol": false,
-      "hasStapleFood": false
-    },
-    {
-      "itemId": "1899726089604563008",
-      "name": "讃岐うどん麺使用　ミニ冷やしわかめうどん",
-      "price": 150,
-      "description": "冷やしうどんつゆ小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_WHEAT"],
       "isAlcohol": false,
       "hasStapleFood": false
     },
@@ -3117,16 +3621,21 @@
       "name": "讃岐うどん麺使用　ミニわかめうどん",
       "price": 150,
       "description": "ミニうどんだし小袋、七味小袋\n※お湯を入れてお召し上がりください。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT"
+      ],
       "isAlcohol": false,
-      "hasStapleFood": false
+      "hasStapleFood": true
     },
     {
       "itemId": "1915271321687668736",
       "name": "カップスープ(わかめ)",
       "price": 150,
       "description": "※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_MILK", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_MILK"
+      ],
       "isAlcohol": false,
       "hasStapleFood": false
     },
@@ -3135,7 +3644,10 @@
       "name": "カップスープ(たまご)",
       "price": 150,
       "description": "※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "hasStapleFood": false
     },
@@ -3145,8 +3657,8 @@
       "price": 160,
       "description": "※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
-        "ALLERGEN_TYPE_CRAB",
         "ALLERGEN_TYPE_SHRIMP",
+        "ALLERGEN_TYPE_CRAB",
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
@@ -3157,7 +3669,9 @@
       "name": "カップスープ(海苔とあおさのみそ汁)",
       "price": 160,
       "description": "※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT"
+      ],
       "isAlcohol": false,
       "hasStapleFood": false
     },
@@ -3166,27 +3680,7 @@
       "name": "カップスープ(豚汁)",
       "price": 160,
       "description": "※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_WHEAT"],
-      "isAlcohol": false,
-      "hasStapleFood": false
-    },
-    {
-      "itemId": "1934794714991766016",
-      "name": "ほっとチキン　バーベキュー味",
-      "price": 260,
-      "description": "バーベキュー風パウダー小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_WHEAT"],
-      "isAlcohol": false,
-      "hasStapleFood": false
-    },
-    {
-      "itemId": "1934795274395463744",
-      "name": "プラスから揚(２コ)　バーベキュー味",
-      "price": 240,
-      "description": "バーベキュー風パウダー小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
-        "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
         "ALLERGEN_TYPE_WHEAT"
       ],
       "isAlcohol": false,
@@ -3197,7 +3691,10 @@
       "name": "ポテトサラダ(ツナ＆マカロニ入り)",
       "price": 180,
       "description": "※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "hasStapleFood": false
     },
@@ -3206,7 +3703,9 @@
       "name": "６種具材のひじき煮",
       "price": 180,
       "description": "※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT"
+      ],
       "isAlcohol": false,
       "hasStapleFood": false
     },
@@ -3215,7 +3714,9 @@
       "name": "さっぱりゆず大根",
       "price": 180,
       "description": "※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT"
+      ],
       "isAlcohol": false,
       "hasStapleFood": false
     },
@@ -3224,7 +3725,9 @@
       "name": "パリパリ春巻",
       "price": 140,
       "description": "※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT"
+      ],
       "isAlcohol": false,
       "hasStapleFood": false
     },
@@ -3233,7 +3736,9 @@
       "name": "ほっとチキン",
       "price": 230,
       "description": "から揚スパイス小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT"
+      ],
       "isAlcohol": false,
       "hasStapleFood": false
     },
@@ -3243,9 +3748,9 @@
       "price": 210,
       "description": "※から揚スパイス・レモン果汁は付いておりません。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "hasStapleFood": false
@@ -3256,9 +3761,9 @@
       "price": 310,
       "description": "から揚スパイス小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "hasStapleFood": false
@@ -3269,9 +3774,9 @@
       "price": 560,
       "description": "から揚スパイス小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "hasStapleFood": false
@@ -3286,14 +3791,14 @@
       "hasStapleFood": false
     },
     {
-      "itemId": "1818904396920179968",
-      "name": "北海道産じゃがいも使用　ほくほく牛肉コロッケ",
-      "price": 150,
-      "description": "※商品情報・栄養成分につきましては、ホームページをご参照ください。",
+      "itemId": "1911632213961038912",
+      "name": "(単品惣菜)　から揚",
+      "price": 110,
+      "description": "※２コ以上お買い求めの場合は「プラスから揚(２コ)」がお得です。\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "hasStapleFood": false
@@ -3304,9 +3809,9 @@
       "price": 100,
       "description": "ソース小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
         "ALLERGEN_TYPE_EGG",
-        "ALLERGEN_TYPE_MILK",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_MILK"
       ],
       "isAlcohol": false,
       "hasStapleFood": false
@@ -3316,7 +3821,10 @@
       "name": "(単品惣菜)　白身フライ",
       "price": 150,
       "description": "ソース小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "hasStapleFood": false
     },
@@ -3326,9 +3834,9 @@
       "price": 110,
       "description": "ソース小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [
-        "ALLERGEN_TYPE_EGG",
         "ALLERGEN_TYPE_SHRIMP",
-        "ALLERGEN_TYPE_WHEAT"
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
       ],
       "isAlcohol": false,
       "hasStapleFood": false
@@ -3338,7 +3846,10 @@
       "name": "(単品惣菜)　ちくわ天",
       "price": 80,
       "description": "減塩醤油小袋\n※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG", "ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT",
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "hasStapleFood": false
     },
@@ -3347,7 +3858,9 @@
       "name": "きのこごはん　単品",
       "price": 300,
       "description": "※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_WHEAT"],
+      "allergens": [
+        "ALLERGEN_TYPE_WHEAT"
+      ],
       "isAlcohol": false,
       "hasStapleFood": true
     },
@@ -3362,8 +3875,8 @@
     },
     {
       "itemId": "1915272699690781824",
-      "name": "ライス単品 (ライス：大盛)",
-      "price": 280,
+      "name": "ライス単品",
+      "price": 190,
       "description": "※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [],
       "isAlcohol": false,
@@ -3378,8 +3891,8 @@
     },
     {
       "itemId": "1915272699690781824",
-      "name": "ライス単品 (ライス：小盛)",
-      "price": 160,
+      "name": "ライス単品",
+      "price": 190,
       "description": "※商品情報・栄養成分につきましては、ホームページをご参照ください。",
       "allergens": [],
       "isAlcohol": false,
@@ -3397,7 +3910,9 @@
       "name": "タルタルソース小袋",
       "price": 20,
       "description": "※商品情報・栄養成分につきましては、ホームページをご参照ください。",
-      "allergens": ["ALLERGEN_TYPE_EGG"],
+      "allergens": [
+        "ALLERGEN_TYPE_EGG"
+      ],
       "isAlcohol": false,
       "hasStapleFood": false
     }
