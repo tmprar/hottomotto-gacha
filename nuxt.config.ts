@@ -100,6 +100,10 @@ export default defineNuxtConfig({
   site: {
     trailingSlash: true,
   },
+  sitemap: {
+    credits: false,
+    xsl: false,
+  },
   ssr: false,
   telemetry: {
     enabled: false,
