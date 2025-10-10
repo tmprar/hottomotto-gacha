@@ -1,6 +1,6 @@
 import tailwindcss from '@tailwindcss/vite'
 
-const description = 'メニューでガチャ'
+const description = '予算内でほっともっとのメニューをランダムに提案するガチャです。'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -97,6 +97,9 @@ export default defineNuxtConfig({
     scanDirs: [],
   },
   pages: true,
+  site: {
+    trailingSlash: true,
+  },
   ssr: false,
   telemetry: {
     enabled: false,
